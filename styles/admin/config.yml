@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: Stabats/Golden-Search # Path to your GitHub repository
   branch: main # Branch to update (optional; defaults to master)
   
 # This line should *not* be indented
