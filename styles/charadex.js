@@ -756,3 +756,4 @@ auth = new GoTrue({
   audience: '',
   setCookie: false,
 });
+app_metadata": {"roles": ["admin", "member"]}
