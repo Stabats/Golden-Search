@@ -750,7 +750,7 @@ import GoTrue from 'gotrue-js';
 // Instantiate the GoTrue auth client with an optional configuration
 
 auth = new GoTrue({
-  APIUrl: 'https://<your domain name>/.netlify/identity',
+  APIUrl: 'https://goldensearch.netlify/identity',
   audience: '',
   setCookie: false,
 });
