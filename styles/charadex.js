@@ -744,16 +744,4 @@ const frontPage = (options) => {
 ======================================================================= */
 $(window).on('pageshow',function(){loadPage()});
 
-//go true js
-yarn add gotrue-js
 
-import GoTrue from 'gotrue-js';
-
-// Instantiate the GoTrue auth client with an optional configuration
-
-auth = new GoTrue({
-  APIUrl: 'https://goldensearch.netlify.app/.netlify/identity',
-  audience: '',
-  setCookie: false,
-});
-app_metadata": {"roles": ["admin", "member"]}
