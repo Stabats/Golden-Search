@@ -745,7 +745,7 @@ const frontPage = (options) => {
 $(window).on('pageshow',function(){loadPage()});
 
 //go true js
-import GoTrue from 'gotrue-js';
+import GoTrue from 'gotrue.js';
 
 // Instantiate the GoTrue auth client with an optional configuration
 
