@@ -743,3 +743,21 @@ const frontPage = (options) => {
 /* Softload pages
 ======================================================================= */
 $(window).on('pageshow',function(){loadPage()});
+
+// Test js
+const validUsername = 'user'; 
+const validPassword = 'password'; 
+ 
+document.getElementById('loginForm').addEventListener('submit', function(event) { 
+    event.preventDefault(); 
+     
+    const username = document.getElementById('username').value; 
+    const password = document.getElementById('password').value; 
+     
+    if (username === validUsername && password === validPassword) { 
+        localStorage.setItem('loggedIn', true); 
+        window.location.href = 'restricted.html'; // Redirect to the restricted page 
+    } else { 
+        document.getElementById('error').textContent = 'Invalid username or password'; 
+    } 
+}); 
