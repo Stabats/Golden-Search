@@ -743,3 +743,14 @@ const frontPage = (options) => {
 /* Softload pages
 ======================================================================= */
 $(window).on('pageshow',function(){loadPage()});
+
+//go true js
+import GoTrue from 'gotrue-js';
+
+// Instantiate the GoTrue auth client with an optional configuration
+
+auth = new GoTrue({
+  APIUrl: 'https://<your domain name>/.netlify/identity',
+  audience: '',
+  setCookie: false,
+});
