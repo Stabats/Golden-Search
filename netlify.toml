@@ -1,6 +1,6 @@
 [[redirects]]
-  from = "/staff.html*"
-  to = "/staff.html:splat"
+  from = "/terms.html*"
+  to = "/terms.html:splat"
   force = true
   status = 200
   conditions = {Role = ["editor", "admin"]}
