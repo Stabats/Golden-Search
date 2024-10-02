@@ -69,7 +69,39 @@
         <!-- General Info
         <-------------------------------------------------------------------- -->
         <div class="card px-md-5 pt-md-5 p-4 mb-5">
-            <h1 class="text-primary mb-3">Terms of Service</h1>
+            <form name="artsubs" method="POST" netlify>
+                          <p>
+                            <h2>Art Submissions</h2>
+                            <label name="Participants">Usernames of all participants: <textarea name="Participants"></textarea></label>
+                            <label name="Characters">Characters Featured: <textarea name="Characters"></textarea></label>
+                            <label name="URL">URL to Image: <textarea name="URL"></textarea></label><br>
+                            <label>How finished is your art piece?:<br>
+                            <input type="radio" id="clean" name="Art Finish" value="clean">
+                              <label for="clean">Clean</label><br>
+                              <input type="radio" id="Polished Work" name="Art Finish" value="polished work">
+                              <label for="polished work">Polished Work</label><br>
+                              <input type="radio" id="full piece" name="Art Finish" value="full piece">
+                              <label for="full piece">Full Piece</label>
+                            </label><br>
+                            <label name="extra">Check all boxes that apply to your piece:<br>
+                                <input type="checkbox" id="headshot" name="extra" value="Headshot">
+                                <label>Headshot</label><br>
+                                <input type="checkbox" id="halfbody" name="extra" value="Halfbody">
+                                <label>Halfbody</label><br>
+                                <input type="checkbox" id="fullbody" name="extra" value="Fullbody">
+                                <label>Fullbody</label><br>
+                                <input type="checkbox" id="gift" name="extra" value="Gift">
+                                <label>Gift</label><br>
+                                <input type="checkbox" id="collab" name="extra" value="Collab">
+                                <label>Collab</label><br>
+                                <input type="checkbox" id="animation" name="extra" value="Animation">
+                                <label>Animation</label>
+                            </label>
+                          </p>
+                          <p>
+                            <button type="submit">Submit</button>
+                          </p>
+                        </form><h1 class="text-primary mb-3">Terms of Service</h1>
             <div class="pl-4">
                 <p>All owners of [species] are covered under the following Terms of Service. By becoming the owner of a [species], you agree to these terms.</p>
             </div>
@@ -84,13 +116,27 @@
         <!-- Payment Info
         <-------------------------------------------------------------------- -->
         <div class="card p-md-5 p-4 mb-5">
-            <h1 class="text-primary mb-3">Payments and Processing</h1>
-            <ol class="ml-4 mb-0">
-                <li>Full payment is required within 48 hours of your claim. You will be allowed a 24 hour extension if needed.</li>
-                <li>Cash payments are processed via PayPal. Point payments are left up to the discretion of the seller.</li>
-                <li>There are no refunds on design purchases, however, you may resell for equal value.</li>
-                <li>Sellers reserve the right to refuse service to anyone.</li>
-            </ol>
+            <form name="litsubs" method="POST" netlify>
+                          <p>
+                            <h2>Literature Submissions</h2>
+                            <label name="Participants">Usernames of all participants: <textarea name="Participants"></textarea></label>
+                            <label name="Characters">Characters Featured: <textarea name="Characters"></textarea></label>
+                            <label name="URL">URL to Literature: <textarea name="URL"></textarea></label><br>
+                            <label>What is your literature's total word count?:<br>
+                            <input type="radio" id="clean" name="Art Finish" value="clean">
+                              <input type="number" id="quantity" name="quantity" min="100">
+                            </label><br>
+                            <label name="extra">Check all boxes that apply to your piece:<br>
+                                <input type="checkbox" id="gift" name="extra" value="Gift">
+                                <label>Gift</label><br>
+                                <input type="checkbox" id="collab" name="extra" value="Collab">
+                                <label>Collab</label><br>
+                            </label>
+                          </p>
+                          <p>
+                            <button type="submit">Submit</button>
+                          </p>
+                        </form>
         </div>
 
         
