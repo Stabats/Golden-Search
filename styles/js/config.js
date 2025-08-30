@@ -38,7 +38,7 @@ charadex.sheet = {
     prompts:       "prompts",
     faq:           "faq",
     staff:         "mods",
-    seekers:        "seekers",
+    seekers:       "seekers",
   },
 
   options: {
@@ -494,7 +494,21 @@ charadex.page.inventory = {
       },
 
     },
-    
+
+    [charadex.sheet.pages.seekers]: {
+      sheetPage: charadex.sheet.pages.seekers,
+      sitePage: 'inventories',
+      dexSelector: 'charadex',
+      profileProperty: 'username',
+      profileToggle: false,
+
+      pagination: {
+        toggle: false,
+        bottomToggle: false,
+        amount: 12,
+      },
+
+    },
 
     [charadex.sheet.pages.masterlist]: {
 
