@@ -16,7 +16,7 @@ let charadex = {};
 /* ==================================================================== */
 charadex.site = {
   title: "Golden Search",
-  url: "https://golden-search.vercel.app/",
+  url: "https://stabats.github.io/Golden-Search/",
   description: `An ARPG about (maybe) saving the world.`
 }
 
@@ -38,6 +38,7 @@ charadex.sheet = {
     prompts:       "prompts",
     faq:           "faq",
     staff:         "mods",
+    player:        "players",
   },
 
   options: {
@@ -211,6 +212,53 @@ charadex.page.prompts = {
 charadex.page.staff = {
 
   sheetPage: charadex.sheet.pages.staff,
+  sitePage: 'inventories',
+  dexSelector: 'charadex',
+  profileProperty: 'username',
+
+  sort: {
+    toggle: false,
+    key: "username",
+    order: "asc",
+    parameters: []
+  },
+
+  pagination: {
+    toggle: false,
+    bottomToggle: false,
+    amount: 12,
+  },
+
+  filters: {
+    toggle: false,
+    parameters: {
+      'TBA': [],
+    }
+  },
+
+  fauxFolder: {
+    toggle: false,
+    folderProperty: '',
+    parameters: [],
+  },
+
+  search: {
+    toggle: true,
+    filterToggle: false,
+    parameters: ['Username']
+  },
+
+  prevNext: {
+    toggle: false,
+  },
+
+};
+
+/* Players
+/* --------------------------------------------------------------- */
+charadex.page.player = {
+
+  sheetPage: charadex.sheet.pages.player,
   sitePage: 'inventories',
   dexSelector: 'charadex',
   profileProperty: 'username',
