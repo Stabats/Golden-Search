@@ -39,7 +39,6 @@ charadex.sheet = {
     faq:           "faq",
     staff:         "mods",
     seekers:       "seekers",
-    plog:          "plog",
   },
 
   options: {
@@ -496,9 +495,9 @@ charadex.page.inventory = {
 
     },
 
-    [charadex.sheet.pages.pLog]: {
+    [charadex.sheet.pages.seekers]: {
 
-      sheetPage: charadex.sheet.pages.pLog,
+      sheetPage: charadex.sheet.pages.seekers,
       sitePage: 'inventories',
       primaryProperty: 'username',
       relatedProperty: 'username',
