@@ -43,6 +43,14 @@ document.addEventListener("DOMContentLoaded", async () => {
           );
         }
 
+        // profile
+        if (charadex.tools.checkArray(profile.inventoryLog)) {
+          let pro = await charadex.initialize.page(
+            profile.inventoryLog,
+            charadex.page.inventory.relatedData['inventory log'],
+          );
+        }
+
       }
     }
   );
