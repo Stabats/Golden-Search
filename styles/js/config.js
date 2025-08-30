@@ -16,7 +16,7 @@ let charadex = {};
 /* ==================================================================== */
 charadex.site = {
   title: "Golden Search",
-  url: "https://golden-search.vercel.app/index.html",
+  url: "https://golden-search.vercel.app/",
   description: `An ARPG about (maybe) saving the world.`
 }
 
