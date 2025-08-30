@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         if (charadex.tools.checkArray(profile.inventoryLog)) {
           let logs = await charadex.initialize.page(
             profile.inventoryLog,
-            charadex.page.inventory.relatedData['inventoryLog'],
+            charadex.page.inventory.relatedData['inventory log'],
           );
         }
 
