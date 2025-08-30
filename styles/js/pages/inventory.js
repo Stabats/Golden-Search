@@ -43,10 +43,10 @@ document.addEventListener("DOMContentLoaded", async () => {
           );
         }
 
-        if (charadex.tools.checkArray(profile.seekers)) {
+        if (charadex.tools.checkArray(profile.plog)) {
           let gols = await charadex.initialize.page(
-            profile.seekers,
-            charadex.page.inventory.relatedData['seekers'],
+            profile.plog,
+            charadex.page.inventory.relatedData['plog'],
           );
         }
 
