@@ -42,13 +42,13 @@ charadex.sheet = {
 
   options: {
 
-    level: ['All', '1', '2', '3', '4', '5', '6'],
+    designTypes: ['All', 'Official Design', 'Guest Design', 'MYO Slot', 'MYO Design'],
     statuses: ['All', 'Active', 'Haitus', 'Inactive'],
     rarity: ['All', 'Common', 'Uncommon', 'Rare', 'Very Rare', 'Legendary'],
     species: ['All', 'PC', 'NPC'],
     itemTypes: ['All', 'Currency', 'Ingridents', 'Plots', 'Homes', 'Decor', 'Misc'],
-    traitTypes: ['All', 'Aether', 'Air', 'Earth', 'Fire', 'Water']
-
+    traitTypes: ['All', 'Aether', 'Air', 'Earth', 'Fire', 'Water'],
+    level: ['All', '1', '2', '3', '4', '5', '6'],
   }
 
 }
