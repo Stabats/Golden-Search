@@ -205,13 +205,7 @@
         <!-- ----------------------------------------------------------- -->
         <ul class="nav row no-gutters m-n1 py-4 px-md-5 px-4" id="profile-tabs" role="tablist">
           <li class="col p-1 nav-item" role="presentation">
-            <a class="nav-link w-100 btn btn-primary active" id="pro-tab" data-toggle="tab" href="#pro" 
-            aria-controls="pro" aria-selected="true">
-              Profile
-            </a>
-          </li>
-          <li class="col p-1 nav-item" role="presentation">
-            <a class="nav-link w-100 btn btn-primary" id="inventory-tab" data-toggle="tab" href="#inventory" 
+            <a class="nav-link w-100 btn btn-primary active" id="inventory-tab" data-toggle="tab" href="#inventory" 
             aria-controls="inventory" aria-selected="true">
               Inventory
             </a>
@@ -234,54 +228,9 @@
         <!-- Main Body
         <!-- ----------------------------------------------------------- -->
         <div class="tab-content p-md-5 p-4">
-
-          <div class="tab-pane fade active show" id="pro" role="tabpanel" aria-labelledby="pro-tab">
-            <div class="card bg-faded p-4" id="pro-gallery">
-              
-              <!-- Title -->
-              <!-- --------------------------------------------------------------- -->
-              <h4 class="text-primary mb-0">Transaction Log</h4>
-              <hr>
-
-              <!-- List -->
-              <!-- --------------------------------------------------------------- -->
-              <div class="p-3">
-                <div class="row no-gutters">
-                  <div class="col-md-3"><b>Timestamp</b></div>
-                  <div class="col-md-9"><b>Reason</b></div>
-                </div>
-                <hr class="my-2 mx-n2">
-                <div class="pro-list"></div>
-              </div>
-
-              <!-- List Item -->
-              <!-- --------------------------------------------------------------- -->
-              <div style="display: none;">
-                <div  id="pro-gallery-item">
-                  <div class="row no-gutters">
-                    <div class="col-md-3"><span class="timestamp"></span></div>
-                    <div class="col-md-9"><span class="reason"></span></div>
-                  </div>
-                  <hr class="my-2 mx-n2">
-                </div>
-              </div>
-
-              <!-- Pagination
-              <!-- --------------------------------------------------------------- -->
-              <div style="display: none;" class="pro-pagination-container">
-                <div class="nav d-flex justify-content-center mb-n2">
-                  <div class="btn-prev page-item"><a class="page-link"><i class="fa fa-chevron-left"></i></a></div>
-                  <ul class="pagination pro-pagination pro-pagination-top justify-content-center m-0"></ul>
-                  <div class="btn-next page-item"><a class="page-link"><i class="fa fa-chevron-right"></i></a></div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-
           <!-- Inventory
           <!-- ----------------------------------------------------------------- -->
-          <div class="tab-pane fade" id="inventory" role="tabpanel" aria-labelledby="inventory-tab">
+          <div class="tab-pane fade active show" id="inventory" role="tabpanel" aria-labelledby="inventory-tab">
             <div id="inventory-gallery">
               <div class="card bg-faded p-4 mb-4">
 
