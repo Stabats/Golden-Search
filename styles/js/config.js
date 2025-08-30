@@ -38,7 +38,7 @@ charadex.sheet = {
     prompts:       "prompts",
     faq:           "faq",
     staff:         "mods",
-    player:        "players",
+    seekers:        "seekers",
   },
 
   options: {
@@ -256,9 +256,9 @@ charadex.page.staff = {
 
 /* Players
 /* --------------------------------------------------------------- */
-charadex.page.player = {
+charadex.page.seekers = {
 
-  sheetPage: charadex.sheet.pages.player,
+  sheetPage: charadex.sheet.pages.seekers,
   sitePage: 'inventories',
   dexSelector: 'charadex',
   profileProperty: 'username',
