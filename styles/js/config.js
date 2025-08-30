@@ -39,6 +39,7 @@ charadex.sheet = {
     faq:           "faq",
     staff:         "mods",
     seekers:       "seekers",
+    plog:          "log",
   },
 
   options: {
