@@ -39,7 +39,7 @@ charadex.sheet = {
     faq:           "faq",
     staff:         "mods",
     seekers:       "seekers",
-    plog:          "log",
+    plog:          "plog",
   },
 
   options: {
@@ -496,15 +496,17 @@ charadex.page.inventory = {
 
     },
 
-    [charadex.sheet.pages.seekers]: {
-      sheetPage: charadex.sheet.pages.seekers,
+    [charadex.sheet.pages.plog]: {
+      sheetPage: charadex.sheet.pages.plog,
       sitePage: 'inventories',
-      dexSelector: 'charadex',
-      profileProperty: 'username',
+      primaryProperty: 'username',
+      relatedProperty: 'username',
+      dexSelector: 'log',
+      profileProperty: 'id',
       profileToggle: false,
 
       pagination: {
-        toggle: false,
+        toggle: true,
         bottomToggle: false,
         amount: 12,
       },
