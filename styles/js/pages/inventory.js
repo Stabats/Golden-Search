@@ -43,6 +43,12 @@ document.addEventListener("DOMContentLoaded", async () => {
           );
         }
 
+        if (charadex.tools.checkArray(profile.plog)) {
+          let logs = await charadex.initialize.page(
+            profile.inventorylog,
+            charadex.page.inventory.relatedData['plog'],
+          );
+        }
 
       }
     }
