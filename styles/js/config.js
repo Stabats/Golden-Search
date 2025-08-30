@@ -39,7 +39,6 @@ charadex.sheet = {
     faq:           "faq",
     staff:         "mods",
     seekers:       "seekers",
-    pl:            "pl"
   },
 
   options: {
@@ -480,29 +479,11 @@ charadex.page.inventory = {
 
     [charadex.sheet.pages.pl]: {
 
-      sheetPage: charadex.sheet.pages.pl,
-      sitePage: 'inventories',
-      primaryProperty: 'username',
-      relatedProperty: 'username',
-      dexSelector: 'log',
-      profileProperty: 'id',
-      profileToggle: false,
-
-      pagination: {
-        toggle: true,
-        bottomToggle: false,
-        amount: 12,
-      },
-
-    },
-
-    [charadex.sheet.pages.inventoryLog]: {
-
       sheetPage: charadex.sheet.pages.inventoryLog,
       sitePage: 'inventories',
       primaryProperty: 'username',
       relatedProperty: 'username',
-      dexSelector: 'pro',
+      dexSelector: 'log',
       profileProperty: 'id',
       profileToggle: false,
 
