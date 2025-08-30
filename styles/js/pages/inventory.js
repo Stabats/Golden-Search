@@ -36,15 +36,8 @@ document.addEventListener("DOMContentLoaded", async () => {
         }
 
         // Logs
-        if (charadex.tools.checkArray(profile.inventorylog)) {
-          let logs = await charadex.initialize.page(
-            profile.inventorylog,
-            charadex.page.inventory.relatedData['inventory log'],
-          );
-        }
-
         if (charadex.tools.checkArray(profile.pl)) {
-          let gol = await charadex.initialize.page(
+          let logs = await charadex.initialize.page(
             profile.pl,
             charadex.page.inventory.relatedData['pl'],
           );
