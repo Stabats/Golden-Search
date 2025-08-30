@@ -15,9 +15,9 @@ let charadex = {};
 /* Any preview links will still show Charadex's information
 /* ==================================================================== */
 charadex.site = {
-  title: "Charadex",
+  title: "Golden Search",
   url: "https://charadex-team.github.io/charadex-v1.0/",
-  description: `A tool for organizing small ARPGs and species.`
+  description: `An ARPG about (maybe) saving the world.`
 }
 
 /* ==================================================================== */
@@ -26,7 +26,7 @@ charadex.site = {
 /* ==================================================================== */
 charadex.sheet = {
 
-  id: "1GwgfLizD3HQCieGia6di-TfU4E3EipT9Jb0BDZQwNak",
+  id: "10LJ9oNXrhu4-7gg07eWYRzuVVpbK3bq1X2GcS3yYrVg",
 
   pages: {
     masterlist:    "masterlist",
@@ -42,12 +42,12 @@ charadex.sheet = {
 
   options: {
 
-    designTypes: ['All', 'Official Design', 'Guest Design', 'MYO Slot', 'MYO Design'],
-    statuses: ['All', 'Resell', 'Trade', 'Gift', 'Voided', 'For Sale', 'Purchased'],
+    level: ['All', '1', '2', '3', '4', '5', '6'],
+    statuses: ['All', 'Active', 'Haitus', 'Inactive'],
     rarity: ['All', 'Common', 'Uncommon', 'Rare', 'Very Rare', 'Legendary'],
-    species: ['All', 'Dog', 'Cat', 'Bunny'],
-    itemTypes: ['All', 'Currency', 'MYO Slot', 'Pet', 'Trait', 'Misc'],
-    traitTypes: ['All', 'Ears', 'Eyes', 'Body', 'Limbs', 'Tails', 'Misc', 'Mutations']
+    species: ['All', 'PC', 'NPC'],
+    itemTypes: ['All', 'Currency', 'Ingridents', 'Plots', 'Homes', 'Decor', 'Misc'],
+    traitTypes: ['All', 'Aether', 'Air', 'Earth', 'Fire', 'Water']
 
   }
 
