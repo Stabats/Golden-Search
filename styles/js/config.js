@@ -501,7 +501,7 @@ charadex.page.inventory = {
       sitePage: 'inventories',
       primaryProperty: 'username',
       relatedProperty: 'username',
-      dexSelector: 'gol',
+      dexSelector: 'log',
       profileProperty: 'id',
       profileToggle: false,
 
