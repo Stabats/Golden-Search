@@ -51,11 +51,3 @@ document.addEventListener("DOMContentLoaded", async () => {
   charadex.tools.loadPage('.softload', 500);
   
 });
-
-/* ==================================================================== */
-/* Load
-======================================================================= */
-document.addEventListener("DOMContentLoaded", async () => {
-  let dex = await charadex.initialize.page(null, charadex.page.seekers);
-  charadex.tools.loadPage('.softload', 500);
-});
