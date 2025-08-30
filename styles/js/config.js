@@ -496,12 +496,12 @@ charadex.page.inventory = {
 
     },
 
-    [charadex.sheet.pages.plog]: {
-      sheetPage: charadex.sheet.pages.plog,
+    [charadex.sheet.pages.seekers]: {
+      sheetPage: charadex.sheet.pages.seekers,
       sitePage: 'inventories',
-      primaryProperty: 'username',
+      dexSelector: 'charadex',
+      profileProperty: 'username',
       relatedProperty: 'username',
-      dexSelector: 'log',
       profileProperty: 'id',
       profileToggle: false,
 
