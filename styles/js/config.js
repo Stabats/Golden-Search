@@ -478,31 +478,13 @@ charadex.page.inventory = {
   // Related Data
   relatedData: {
 
-    [charadex.sheet.pages.inventoryLog]: {
-
-      sheetPage: charadex.sheet.pages.inventoryLog,
-      sitePage: 'inventories',
-      primaryProperty: 'username',
-      relatedProperty: 'username',
-      dexSelector: 'log',
-      profileProperty: 'id',
-      profileToggle: false,
-
-      pagination: {
-        toggle: true,
-        bottomToggle: false,
-        amount: 12,
-      },
-
-    },
-
     [charadex.sheet.pages.pl]: {
 
       sheetPage: charadex.sheet.pages.pl,
       sitePage: 'inventories',
       primaryProperty: 'username',
       relatedProperty: 'username',
-      dexSelector: 'gol',
+      dexSelector: 'log',
       profileProperty: 'id',
       profileToggle: false,
 
