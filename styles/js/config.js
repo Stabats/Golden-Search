@@ -38,17 +38,18 @@ charadex.sheet = {
     prompts:       "prompts",
     faq:           "faq",
     staff:         "mods",
+    seekers:       "seekers",
   },
 
   options: {
 
     designTypes: ['All', 'Official Design', 'Guest Design', 'MYO Slot', 'MYO Design'],
-    statuses: ['All', 'Resell', 'Trade', 'Gift', 'Voided', 'For Sale', 'Purchased'],
+    statuses: ['All', 'Active', 'Haitus', 'Inactive'],
     rarity: ['All', 'Common', 'Uncommon', 'Rare', 'Very Rare', 'Legendary'],
-    species: ['All', 'Dog', 'Cat', 'Bunny'],
-    itemTypes: ['All', 'Currency', 'MYO Slot', 'Pet', 'Trait', 'Misc'],
-    traitTypes: ['All', 'Ears', 'Eyes', 'Body', 'Limbs', 'Tails', 'Misc', 'Mutations']
-
+    species: ['All', 'PC', 'NPC'],
+    itemTypes: ['All', 'Currency', 'Ingridents', 'Plots', 'Homes', 'Decor', 'Misc'],
+    traitTypes: ['All', 'Aether', 'Air', 'Earth', 'Fire', 'Water'],
+    level: ['All', '1', '2', '3', '4', '5', '6'],
   }
 
 }
