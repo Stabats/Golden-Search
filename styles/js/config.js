@@ -254,6 +254,52 @@ charadex.page.staff = {
 
 };
 
+/* Staff
+/* --------------------------------------------------------------- */
+charadex.page.seekers = {
+
+  sheetPage: charadex.sheet.pages.seekers,
+  sitePage: 'inventories',
+  dexSelector: 'charadex',
+  profileProperty: 'username',
+
+  sort: {
+    toggle: false,
+    key: "username",
+    order: "asc",
+    parameters: []
+  },
+
+  pagination: {
+    toggle: false,
+    bottomToggle: false,
+    amount: 12,
+  },
+
+  filters: {
+    toggle: false,
+    parameters: {
+      'TBA': [],
+    }
+  },
+
+  fauxFolder: {
+    toggle: false,
+    folderProperty: '',
+    parameters: [],
+  },
+
+  search: {
+    toggle: true,
+    filterToggle: false,
+    parameters: ['Username']
+  },
+
+  prevNext: {
+    toggle: false,
+  },
+
+};
 
 /* FAQ
 /* --------------------------------------------------------------- */
