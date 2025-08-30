@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         }
 
         if (charadex.tools.checkArray(profile.plog)) {
-          let gol = await charadex.initialize.page(
+          let gols = await charadex.initialize.page(
             profile.plog,
             charadex.page.inventory.relatedData['plog'],
           );
