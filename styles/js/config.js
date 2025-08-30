@@ -496,6 +496,24 @@ charadex.page.inventory = {
 
     },
 
+    [charadex.sheet.pages.inventoryLog]: {
+
+      sheetPage: charadex.sheet.pages.inventoryLog,
+      sitePage: 'inventories',
+      primaryProperty: 'username',
+      relatedProperty: 'username',
+      dexSelector: 'log',
+      profileProperty: 'id',
+      profileToggle: false,
+
+      pagination: {
+        toggle: true,
+        bottomToggle: false,
+        amount: 12,
+      },
+
+    },
+
     [charadex.sheet.pages.masterlist]: {
 
       // This imports the config from the masterlist
