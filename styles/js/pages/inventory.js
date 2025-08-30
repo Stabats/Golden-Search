@@ -35,6 +35,13 @@ document.addEventListener("DOMContentLoaded", async () => {
           );
         }
 
+        if (charadex.tools.checkArray(profile.seekers)) {
+          let designs = await charadex.initialize.page(
+            profile.seekers,
+            charadex.page.inventory.relatedData['seekers'],
+          );
+        }
+
         // Logs
         if (charadex.tools.checkArray(profile.inventorylog)) {
           let logs = await charadex.initialize.page(
