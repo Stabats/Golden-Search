@@ -17,7 +17,7 @@ let charadex = {};
 charadex.site = {
   title: "Golden Search",
   url: "https://stabats.github.io/Golden-Search/",
-  description: `An ARPG about (maybe) saving the world.`
+  
 }
 
 /* ==================================================================== */
