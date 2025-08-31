@@ -15,9 +15,9 @@ let charadex = {};
 /* Any preview links will still show Charadex's information
 /* ==================================================================== */
 charadex.site = {
-  title: "Charadex",
-  url: "https://charadex-team.github.io/charadex-v1.0/",
-  description: `A tool for organizing small ARPGs and species.`
+  title: "Golden Search",
+  url: "hhttps://stabats.github.io/Golden-Search/",
+  description: `An ARPG about (maybe) saving the world.`
 }
 
 /* ==================================================================== */
@@ -26,7 +26,7 @@ charadex.site = {
 /* ==================================================================== */
 charadex.sheet = {
 
-  id: "1GwgfLizD3HQCieGia6di-TfU4E3EipT9Jb0BDZQwNak",
+  id: "10LJ9oNXrhu4-7gg07eWYRzuVVpbK3bq1X2GcS3yYrVg",
 
   pages: {
     masterlist:    "masterlist",
