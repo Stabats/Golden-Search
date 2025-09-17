@@ -8,6 +8,6 @@ import { charadex } from '../charadex.js';
 /* Load
 ======================================================================= */
 document.addEventListener("DOMContentLoaded", async () => {
-  let dex = await charadex.initialize.page(null, charadex.page.traits);
+  let dex = await charadex.initialize.page(null, charadex.page.powers);
   charadex.tools.loadPage('.softload', 500);
 });
