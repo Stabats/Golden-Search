@@ -117,7 +117,7 @@ charadex.page.powers = {
   sheetPage: charadex.sheet.pages.powers,
   sitePage: 'powers',
   dexSelector: 'charadex',
-  profileProperty: 'trait',
+  profileProperty: 'power',
 
   sort: {
     toggle: true,
@@ -135,21 +135,21 @@ charadex.page.powers = {
   filters: {
     toggle: true,
     parameters: {
-      'Type': charadex.sheet.options.traitTypes,
-      'Rarity': charadex.sheet.options.rarity,
+      'Type': charadex.sheet.options.elementTypes,
+      'Level': charadex.sheet.options.level,
     }
   },
 
   fauxFolder: {
     toggle: true,
     folderProperty: 'Type',
-    parameters: charadex.sheet.options.traitTypes,
+    parameters: charadex.sheet.options.elementTypes,
   },
 
   search: {
     toggle: true,
     filterToggle: true,
-    parameters: ['All', 'Trait', 'Rarity']
+    parameters: ['All', 'Type', 'Level']
   },
 
   prevNext: {
