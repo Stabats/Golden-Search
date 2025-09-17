@@ -34,7 +34,7 @@ charadex.sheet = {
     inventory:     "inventory",
     inventoryLog:  "inventory log",
     items:         "items",
-    traits:        "traits",
+    powers:        "powers",
     prompts:       "prompts",
     faq:           "faq",
     staff:         "mods",
@@ -110,12 +110,12 @@ charadex.page.items = {
 };
 
 
-/* Traits
+/* powers
 /* --------------------------------------------------------------- */
-charadex.page.traits = {
+charadex.page.powers = {
 
-  sheetPage: charadex.sheet.pages.traits,
-  sitePage: 'traits',
+  sheetPage: charadex.sheet.pages.powers,
+  sitePage: 'powers',
   dexSelector: 'charadex',
   profileProperty: 'trait',
 
@@ -390,7 +390,7 @@ charadex.page.masterlist = {
   search: {
     toggle: true,
     filterToggle: true,
-    parameters: ['All', 'ID', 'Design', 'Owner', 'Designer', 'Artist', 'Traits']
+    parameters: ['All', 'ID', 'Design', 'Owner', 'Designer', 'Artist', 'Powers']
   },
 
   prevNext: {
