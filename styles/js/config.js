@@ -132,14 +132,6 @@ charadex.page.powers = {
     amount: 24,
   },
 
-  filters: {
-    toggle: true,
-    parameters: {
-      'Type': charadex.sheet.options.elementTypes,
-      'Level': charadex.sheet.options.level,
-    }
-  },
-
   fauxFolder: {
     toggle: true,
     folderProperty: 'Type',
