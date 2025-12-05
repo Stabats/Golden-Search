@@ -228,6 +228,10 @@
             aria-controls="profile" aria-selected="true">Profile</a>
           </li>
           <li class="col p-1 nav-item" role="presentation">
+            <a class="w-100 btn btn-primary" id="logs-tab" data-toggle="tab" href="#boundary" aria-controls="boundary" 
+            aria-selected="false">Boundaries</a>
+          </li>
+          <li class="col p-1 nav-item" role="presentation">
             <a class="w-100 btn btn-primary" id="logs-tab" data-toggle="tab" href="#logs" aria-controls="logs" 
             aria-selected="false">Logs</a>
           </li>
@@ -236,11 +240,12 @@
 
 
         <!-- Main Info
-        <!-- ----------------------------------------------------------- -->
+          
+          
+                  <!-- Main Info -->
         <div class="p-md-5 p-4 tab-content">
 
-          <!-- Main Profile
-          <!-- ----------------------------------------------------------- -->
+          <!-- Main Profile -->
           <div class="tab-pane fade active show" id="profile" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
             <h4 class="text-primary">Profile</h4>
             <div class="row no-gutters m-n2">
@@ -351,15 +356,134 @@
             </div>
           </div>
           
+          <!-- Boundaries -->
+          <div class="tab-pane fade" id="boundary" role="tabpanel" aria-labelledby="logs-tab" tabindex="0">
+              <h4 class="text-primary">Boundaries</h4>
+            <div class="row no-gutters m-n2">
+
+              <div class="col-md-6 p-2">
+                <div class="card bg-faded p-4 h-100">
+                    <b class="text-muted text-center">Romantic Relationships</b>
+                    <hr>
+                  <!-- Item -->
+                  <div class="d-flex no-gutters mb-2">
+                    <b class="text-muted col-md-5 col-6">Open To Romance?</b>
+                    <span class="species">Y / N</span>
+                  </div>
+    
+                  <!-- Item -->
+                  <div class="d-flex no-gutters mb-2">
+                    <b class="text-muted col-md-5 col-6">Orientation</b>
+                    <span class="pronouns"></span>
+                  </div>
+
+                  <!-- Item -->
+                  <div class="d-flex no-gutters mb-2">
+                    <b class="text-muted col-md-5 col-6">Crushes</b>
+                    <span class="status"></span>
+                  </div>
+
+                  <!-- Item -->
+                  <div class="d-flex no-gutters mb-2">
+                    <b class="text-muted col-md-5 col-6">Flirting</b>
+                    <span class="art"></span>
+                  </div>
+
+                  <!-- Item -->
+                  <div class="d-flex no-gutters mb-2">
+                    <b class="text-muted col-md-5 col-6">Touch</b>
+                    <span class="writing"></span>
+                  </div>
+                  
+                  <!-- Item -->
+                  <div class="d-flex no-gutters mb-2">
+                    <b class="text-muted col-md-5 col-6">Kind Words</b>
+                    <span class="writing"></span>
+                  </div>
+                  
+                  <!-- Item -->
+                  <div class="d-flex no-gutters mb-2">
+                    <b class="text-muted col-md-5 col-6">Gifts</b>
+                    <span class="writing"></span>
+                  </div>
+                  
+                  <hr>
+
+                  <!-- Item -->
+                  <div>
+                    <b class="text-muted" style="text-align:center;">Notes</b>
+                    <div class="px-4 cd-text-pre notes"></div>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="col-md-6 p-2">
+                <div class="card bg-faded p-4 h-100">
+                    <b class="text-muted text-center">Platonic Relationships</b>
+                    <hr>
+                  <!-- Item -->
+                  <div class="d-flex no-gutters mb-2">
+                    <b class="text-muted col-md-5 col-6">Open To New Relationships?</b>
+                    <span class="species">Y / N</span>
+                  </div>
+    
+                  <!-- Item -->
+                  <div class="d-flex no-gutters mb-2">
+                    <b class="text-muted col-md-5 col-6">New Friends?</b>
+                    <span class="pronouns"></span>
+                  </div>
+
+                  <!-- Item -->
+                  <div class="d-flex no-gutters mb-2">
+                    <b class="text-muted col-md-5 col-6">New Enemies?</b>
+                    <span class="status"></span>
+                  </div>
+
+                  <!-- Item -->
+                  <div class="d-flex no-gutters mb-2">
+                    <b class="text-muted col-md-5 col-6">Touch</b>
+                    <span class="art"></span>
+                  </div>
+
+                  <!-- Item -->
+                  <div class="d-flex no-gutters mb-2">
+                    <b class="text-muted col-md-5 col-6">Kind Words</b>
+                    <span class="writing"></span>
+                  </div>
+                  
+                  <!-- Item -->
+                  <div class="d-flex no-gutters mb-2">
+                    <b class="text-muted col-md-5 col-6">Verbal Fights</b>
+                    <span class="writing"></span>
+                  </div>
+                  
+                  <!-- Item -->
+                  <div class="d-flex no-gutters mb-2">
+                    <b class="text-muted col-md-5 col-6">Physical Fights</b>
+                    <span class="writing"></span>
+                  </div>
+                  
+                  <hr>
+
+                  <!-- Item -->
+                  <div>
+                    <b class="text-muted" style="text-align:center;">Notes</b>
+                    <div class="px-4 cd-text-pre notes"></div>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
           
-          <!-- Logs
-          <!-- ----------------------------------------------------------- -->
+          <!-- Logs -->
           <div class="tab-pane fade" id="logs" role="tabpanel" aria-labelledby="logs-tab" tabindex="0">
             <h4 class="text-primary">Transaction Log</h4>
             <div class="card bg-faded p-4" id="log-gallery">
 
               <!-- List -->
-              <!-- --------------------------------------------------------------- -->
               <div class="row no-gutters">
                 <div class="col-md-3"><b>Timestamp</b></div>
                 <div class="col-md-9"><b>Reason</b></div>
@@ -368,7 +492,6 @@
               <div class="log-list"></div>
 
               <!-- List Item -->
-              <!-- --------------------------------------------------------------- -->
               <div style="display: none;">
                 <div class="row no-gutters" id="log-gallery-item">
                   <div class="col-md-3"><span class="timestamp"></span></div>
@@ -376,8 +499,7 @@
                 </div>
               </div>
 
-              <!-- Pagination
-              <!-- --------------------------------------------------------------- -->
+              <!-- Pagination -->
               <div style="display: none;" class="log-pagination-container">
                 <hr>
                 <div class="nav d-flex justify-content-center mb-n4">
@@ -386,6 +508,16 @@
                   <div class="btn-next page-item"><a class="page-link"><i class="fa fa-chevron-right"></i></a></div>
                 </div>
               </div>
+
+            </div>
+          </div>
+
+          <!-- Where to Update -->
+          <div class="card bg-faded py-2 px-3 mt-3 small text-center">
+            <b>If you need to update this entry, please do so <a href="">here</a>.</b>
+          </div>
+
+        </div>
 
             </div>
           </div>
