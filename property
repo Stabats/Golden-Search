@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <!-- ----------------------------------------------------------------- -->
+  <!-- About Your Site                                                   -->
+  <!-- ----------------------------------------------------------------- -->
+  <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+  <title>World</title>
+  <meta name="title" content="property" />
+  <meta name="type" content="website" />
+  <meta name="url" content="https://stabats.github.io/Golden-Search/" />
+  <meta name="image" content="assets/meta.png" />
+  <meta name="description" content="An ARPG about (maybe) saving the world.">
+
+  <!-- No AI scraping directives -->
+  <meta name="robots" content="noai">
+  <meta name="robots" content="noimageai">
+
+
+  <!-- ----------------------------------------------------------------- -->
+  <!-- Styles                                                            -->
+  <!-- ----------------------------------------------------------------- -->
+
+  <!-- Bootstrap CSS -->
+  <!-- Using Bootstrap 4.5 because its closest to Toyhou.se's current version -->
+  <!-- https://getbootstrap.com/docs/4.5/getting-started/introduction/ -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+
+  <!-- ----------------------------------------------------------------- -->
+  <!-- Optional Styles                                                   -->
+  <!-- ----------------------------------------------------------------- -->
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" type="text/css" href="styles/css/charadex.css">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400|Comfortaa:500" rel="stylesheet">
+
+
+</head>
+
+<body id="charadex-body">
+
+
+  <!-- --------------------------------------------------------------------
+  <-- Header
+  <-------------------------------------------------------------------- -->
+  <div class="load-html" id="header" data-source="includes/header.html"></div>
+
+
+  <!-- --------------------------------------------------------------------
+  <-- Main List
+  <-------------------------------------------------------------------- -->
+  <div class="container" id="main-container">
+    <h1 class="text-primary mb-3 text-center">Worlds</h1>
+    <div class="card p-md-5 p-4">
+      <h1 class="mb-0">Home</h1>
+      <hr class="mb-3">
+      <div class="pl-4">
+        The world your character originally comes from is up to you! You can be any species, have any flora, any languages, etc. You can share a home world with other players if you so wish. However, no matter what world you come from, every single world will have the following in common:
+        <ul>
+          <li>Talliah'la Island is known in some fashion</li>
+          <li>Natural disasters have changed... They seem to clash with one another as if the world is fighting itself. Disasters can have mixed elements (ie. snowstorm with a tsunami) or seem magical in nature. Regular events still happen.</li>
+          <li>Things in the world are disappearing out of no where with no cause and no return. Examples of things can be species of animals or plants, clouds, the moon, etc. It can also be entire areas such as an entire island has vanished or perhaps an entire forest disappears with only bare ground left.</li>
+          <li>Magic can exist in worlds, however:</li>
+          <ul>
+              <li>No sentient being, NPC or Player, can use/harness magic. You can be a fantasy species such as a dragon or a unicorn, however, you can use magic, breathe fire, fly without wings, etc. You also cannot use magic through things such as technology.</li>
+              <li>Only nature & wild animals can wield magic. Magic cannot be successfully harvested from nature/wildlife. It is a wild force that cannot be tamed much like gravity.</li>
+              <li>Ghosts may exist as a rare occurence. They must be intangible, cannot communicate/interact with the living, and should primarily be at least one of the Elemental colors.</li>
+          </ul>
+        </ul>
+      </div>
+    </div>
+    <br>
+    <div class="card p-md-5 p-4">
+      <!-- General Info
+      <!-->
+        <h1 class="mb-0">Talliah'la Island</h1>
+        <hr class="mb-3">
+        <div class="pl-4">
+            <b>Aliases:</b> Talliah'la Continent, Talliah'la Volcano, ???<br>
+            <b>Population:</b> ???<br><br>
+            <p style="text-align:center;">The island of Talliah'la is one shrouded in mystery and is mainly written off as a fairy tale to the outside world. No one for sure knows exactly where the island is located as some theorize it to be in the center of the Bermuda triangle or it's at the edge of the world or it moves around somehow. What one may find on the island is completely uncertain as some say it's the Fountain of Youth or a pirate's treasure hoard or desolate landscape. Plenty of pieces of fiction have used Talliah'la Island as a point of interest from either trying to define what the island is exactly to using it as a fantasy location. It has been theorized to be an entire continent rather than an actual island or even just a volcano. What Talliah'la Island is known to you as can be anything as anything regarding the Island has been told or will be told. However, despite all the contradicting information out there, there is only one thing that everyone truly agrees on: The Golden Key.
+                <br><br>
+                The Golden Key is an ancient artifact known to hold the greatest powerful magic in the entire universe. It is said that whoever has the key, holds the universe in their paws. There have been tales of its use of good and evil throughout history. It's appearance, full magic ability and usage is highly debated just as the Island itself. However, everyone seems to agree that it connected to Talliah'la Island one way or another. There hasn't been a report of the key's appearance in many years so no one knows if its real or not but it is theorized to located at Talliah'la Island.
+                <br><br>What this Island is exactly... well, that's for you to uncover.
+                <br><br>Information on Talliah'la Island will be updated as the players discover more.
+                </p>
+            <div class="container d-flex justify-content-center">
+                    <div class="row">
+                        <div class="col">
+                            <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/95319462_8vteeWV8xSeQD7x.png" style="width:100%;" />
+                        </div>
+                        <div class="col-sm-5">
+                            <hr style="background-color:black;">
+                            <h3 class="card-title text-center"><b>Regions</b></h3>
+                            <hr style="background-color:black;">
+                            <p class="card-text text-center">
+                                Talliah'la Island is broken up into six main territories. Players will explore the island as the story progresses and the map will update along with it. Players will all start together in Hills-Willow.
+                            <br><br><a href="#hw">Hills-Willow</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <hr style="background-color:black;">
+                <h4 class="card-title text-center" id="hw"><b>Hills-Willow</b></h4>
+                <hr style="background-color:black;">
+                <h5 style="text-align:center;">Points of Interest</h5>
+                To be discovered...
+        </div>
+    </div>
+  </div>
+
+  <!-- --------------------------------------------------------------------
+  <-- Footer
+  <-------------------------------------------------------------------- -->
+  <div class="load-html" id="footer" data-source="includes/footer.html"></div>
+
+  <!-- ----------------------------------------------------------------- -->
+  <!-- JS                                                                -->
+  <!-- ----------------------------------------------------------------- -->
+
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+  <!-- Charadex Script -->
+  <script src="styles/js/pages/base.js" type="module"></script>
+
+
+</body>
+
+</html>
