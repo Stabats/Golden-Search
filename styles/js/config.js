@@ -39,6 +39,7 @@ charadex.sheet = {
     faq:           "faq",
     staff:         "mods",
     seekers:       "seekers",
+    badges:        "badges",
   },
 
   options: {
@@ -50,6 +51,7 @@ charadex.sheet = {
     itemTypes: ['All', 'Currency', 'Ingredents', 'Plots', 'Homes', 'Decor', 'Misc'],
     elementTypes: ['All', 'Aether', 'Air', 'Earth', 'Fire', 'Water'],
     level: ['All', '1', '2', '3', '4', '5', '6'],
+    badge: ['All', 'Pinkies', 'Roleplay', 'Magic', 'Quests', 'Home'],
   }
 
 }
