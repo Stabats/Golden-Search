@@ -40,6 +40,7 @@ charadex.sheet = {
     staff:         "mods",
     seekers:       "seekers",
     badges:        "badges",
+    propertys:        "propertys",
   },
 
   options: {
@@ -52,6 +53,7 @@ charadex.sheet = {
     elementTypes: ['All', 'Aether', 'Air', 'Earth', 'Fire', 'Water'],
     level: ['All', '1', '2', '3', '4', '5', '6'],
     badgeTypes: ['All', 'Pinkies', 'Roleplay', 'Magic', 'Quests', 'Home'],
+    propertyTypes: ['All', 'Aether', 'Air', 'Earth', 'Fire', 'Water']
   }
 
 }
@@ -149,6 +151,52 @@ charadex.page.badges = {
     toggle: true,
     filterToggle: true,
     parameters: ['All', 'Type']
+  },
+
+  prevNext: {
+    toggle: true,
+  },
+
+};
+
+/* powers
+/* --------------------------------------------------------------- */
+charadex.page.propertys = {
+
+  sheetPage: charadex.sheet.pages.property,
+  sitePage: 'property',
+  dexSelector: 'charadex',
+  profileProperty: 'propertys',
+
+  sort: {
+    toggle: true,
+    key: "id",
+    order: "asc",
+    parameters: []
+  },
+
+  pagination: {
+    toggle: true,
+    bottomToggle: true,
+    amount: 24,
+  },
+
+  filters: {
+    toggle: true,
+    parameters: {
+    }
+  },
+
+  fauxFolder: {
+    toggle: true,
+    folderProperty: 'Type',
+    parameters: charadex.sheet.options.propertyTypes,
+  },
+
+  search: {
+    toggle: true,
+    filterToggle: true,
+    parameters: ['All', 'Type', 'Level']
   },
 
   prevNext: {
