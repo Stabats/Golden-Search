@@ -12,7 +12,7 @@
   <!-- ----------------------------------------------------------------- -->
   <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
   <title>Quests</title>
-  <meta name="title" content="quests" />
+  <meta name="title" content="Quests" />
   <meta name="type" content="website" />
   <meta name="url" content="https://stabats.github.io/Golden-Search/" />
   <meta name="image" content="assets/meta.png" />
@@ -51,18 +51,18 @@
 
 <body id="charadex-body">
 
-
   <!-- --------------------------------------------------------------------
   <-- Header
   <-------------------------------------------------------------------- -->
-  <div class="load-html" id="header" data-source="includes/header.html"></div>
-
+  <div class="load-html" data-source="includes/header.html"></div>
 
   <!-- --------------------------------------------------------------------
   <-- Main List
   <-------------------------------------------------------------------- -->
   <div class="container" id="main-container">
-    <h1 class="text-primary mb-3 text-center">Questing</h1>
+    <div class="card p-md-5 p-4 mb-3">
+
+      <h1 class="text-primary mb-3 text-center">Questing</h1>
     <div class="card p-md-5 p-4">
       <h1 class="mb-0">Quests</h1>
       <hr class="mb-3">
@@ -81,6 +81,9 @@
           &nbsp;&nbsp;&nbsp;Rewards for completing a quest can range from items for your character to use, pinkies, badges, and/or unlock new things. To submit your completed quest to claim your rewards, you can do so by turning it in for <a href="https://goldensearch.flarum.cloud/p/6-pinkie-submissions">pinkies</a>.        
       </div>
     </div>
+
+    </div>
+      
     <!-- Designs
     <!-- --------------------------------------------------------------- -->
     <div class="card p-md-5 p-4 mb-3" id="design-gallery">
@@ -104,19 +107,75 @@
       <hr>
       <div class="row no-gutters staff-list softload m-n2"></div>
     </div>
-    <br>
-    <div class="card p-md-5 p-4">
-      <!-- General Info
-      <!-->
-        <h1 style="text-align:center;">Pinkies</h1><hr><p style="text-align:center;">Pinkies are the currency used in this world. The cats used to trade using mice as payment and in particular, baby mice which are known as pinkies. It has since evolved into the official currency used on Talliah's island in the form of coins.<br>As a player, you can earn pinkies OOC through art & writing. Requirements for submissions are:</p>
-        </div>
-    </div>
+
+    
   </div>
+
+
 
   <!-- --------------------------------------------------------------------
   <-- Footer
   <-------------------------------------------------------------------- -->
-  <div class="load-html" id="footer" data-source="includes/footer.html"></div>
+  <div class="load-html" data-source="includes/footer.html"></div>
+
+
+
+  <!-- --------------------------------------------------------------------
+  <-- Repeat Items
+  <-- Do not remove 'display:none;'
+  <-------------------------------------------------------------------- -->
+  <div style="display:none;">
+
+    <!-- Designs
+    <!-- --------------------------------------------------------------- -->
+    <div class="col-md-3 col-sm-6 p-2" id="design-gallery-item">
+      <div class="card bg-faded h-100">
+        <div class="card-header bg-faded text-center">
+          <h5 class="mb-0">
+            <a class="profileid profilelink" href=""></a>
+          </h5>
+        </div>
+        <div class="card-body cd-gallery-card d-flex flex-fill">
+          <img class="image img-fluid m-auto" src="" >
+        </div>
+        <div class="card-footer bg-faded text-center">
+          <a class="owner ownerlink small" href=""></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Prompts
+    <!-- --------------------------------------------------------------- -->
+    <div class="col-md-4 col-sm-6 p-2" id="prompt-gallery-item">
+      <div class="card bg-faded">
+        <h6 class="card-header bg-faded text-truncate">
+          <a class="profileid profilelink"></a>
+        </h6>
+        <div class="cd-prompt-background"></div>
+        <div class="card-body small description"></div>
+      </div>
+    </div>
+
+    <!-- Staff
+    <!-- --------------------------------------------------------------- -->
+    <div class="col-md-4 col-sm-6 p-2" id="staff-gallery-item">
+      <div class="card bg-faded p-3 h-100">
+        <div class="row no-gutters m-n2">
+          <div class="col-md-5 p-2">
+            <img class="image img-thumbnail img-fluid m-auto" src="">
+          </div>
+          <div class="col-md-7 p-2">
+            <div class="text-truncate">
+              <a class="profileid profilelink"></a>
+            </div>
+            <hr class="my-2">
+            <span class="small jobtitle"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
 
   <!-- ----------------------------------------------------------------- -->
   <!-- JS                                                                -->
@@ -131,6 +190,7 @@
   <!-- Charadex Script -->
   <script src="styles/js/pages/base.js" type="module"></script>
   <script src="styles/js/pages/index.js" type="module"></script>
+
 
 </body>
 
