@@ -62,23 +62,25 @@
   <-- Main List
   <-------------------------------------------------------------------- -->
   <div class="container" id="main-container">
-    <h1 class="text-primary mb-3 text-center">Worlds</h1>
+    <h1 class="text-primary mb-3 text-center">Questing</h1>
     <div class="card p-md-5 p-4">
-      <h1 class="mb-0">Home</h1>
+      <h1 class="mb-0">Quests</h1>
       <hr class="mb-3">
       <div class="pl-4">
-        The world your character originally comes from is up to you! You can be any species, have any flora, any languages, etc. You can share a home world with other players if you so wish. However, no matter what world you come from, every single world will have the following in common:
-        <ul>
-          <li>Talliah'la Island is known in some fashion</li>
-          <li>Natural disasters have changed... They seem to clash with one another as if the world is fighting itself. Disasters can have mixed elements (ie. snowstorm with a tsunami) or seem magical in nature. Regular events still happen.</li>
-          <li>Things in the world are disappearing out of no where with no cause and no return. Examples of things can be species of animals or plants, clouds, the moon, etc. It can also be entire areas such as an entire island has vanished or perhaps an entire forest disappears with only bare ground left.</li>
-          <li>Magic can exist in worlds, however:</li>
+        Quests are tasks that players can do to earn rewards and help drive forward their own personal story or the main storyline in a smaller way. Most quests are supplementary activities to do during interims for players to have things to do while a chapter isn't being run. They are completed by creating a piece of writing, art or roleplay about your character doing the objective of that quest. Each quest will have a different prompt for you to solve and may have extra stipulations needed in order to complete that quest. Unless specified otherwise in the quest description, every requirement needed to complete the quest is:
           <ul>
-              <li>No sentient being, NPC or Player, can use/harness magic. You can be a fantasy species such as a dragon or a unicorn, however, you can use magic, breathe fire, fly without wings, etc. You also cannot use magic through things such as technology.</li>
-              <li>Only nature & wild animals can wield magic. Magic cannot be successfully harvested from nature/wildlife. It is a wild force that cannot be tamed much like gravity.</li>
-              <li>Ghosts may exist as a rare occurence. They must be intangible, cannot communicate/interact with the living, and should primarily be at least one of the Elemental colors.</li>
+          <li>Art: 1 polished fullbody</li>
+          <li>Writing: 200 words</li>
           </ul>
-        </ul>
+          <br>
+          Players can collab on quests with other players if they so wish, however, the requirements are doubled:
+          <ul>
+          <li>Art: 2 polished fullbodies</li>
+          <li>Writing: 400 words</li>
+          <li>Roleplay: 4 posts per person</li>
+          </ul>
+          <br>
+          Rewards for completing a quest can range from items for your character to use, pinkies, badges, and/or unlock new things. To submit your completed quest to claim your rewards, you can do so by turning it in for <a href="https://goldensearch.flarum.cloud/p/6-pinkie-submissions">pinkies</a>.        
       </div>
     </div>
     <br>
