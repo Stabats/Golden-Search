@@ -116,9 +116,9 @@ charadex.page.items = {
 charadex.page.badges = {
 
   sheetPage: charadex.sheet.pages.badges,
-  sitePage: 'items',
+  sitePage: 'badges',
   dexSelector: 'charadex',
-  profileProperty: 'item',
+  profileProperty: 'badge',
 
   sort: {
     toggle: true,
@@ -149,7 +149,7 @@ charadex.page.badges = {
   search: {
     toggle: true,
     filterToggle: true,
-    parameters: ['All', 'Item']
+    parameters: ['All', 'Badge']
   },
 
   prevNext: {
