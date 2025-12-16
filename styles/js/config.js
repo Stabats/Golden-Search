@@ -51,7 +51,7 @@ charadex.sheet = {
     itemTypes: ['All', 'Currency', 'Ingredents', 'Plots', 'Homes', 'Decor', 'Misc'],
     elementTypes: ['All', 'Aether', 'Air', 'Earth', 'Fire', 'Water'],
     level: ['All', '1', '2', '3', '4', '5', '6'],
-    badge: ['All', 'Pinkies', 'Roleplay', 'Magic', 'Quests', 'Home'],
+    badgeTypes: ['All', 'Pinkies', 'Roleplay', 'Magic', 'Quests', 'Home'],
   }
 
 }
@@ -103,6 +103,54 @@ charadex.page.items = {
     toggle: true,
     filterToggle: true,
     parameters: ['All', 'Item', 'Rarity']
+  },
+
+  prevNext: {
+    toggle: true,
+  },
+
+};
+
+/* Badge Catalogue
+/* --------------------------------------------------------------- */
+charadex.page.badges = {
+
+  sheetPage: charadex.sheet.pages.badges,
+  sitePage: 'badges',
+  dexSelector: 'charadex',
+  profileProperty: 'badge',
+
+  sort: {
+    toggle: true,
+    key: "id",
+    order: "asc",
+    parameters: []
+  },
+
+  pagination: {
+    toggle: true,
+    bottomToggle: true,
+    amount: 24,
+  },
+
+  filters: {
+    toggle: true,
+    parameters: {
+      'Type': charadex.sheet.options.badgeTypes,
+      'Rarity': charadex.sheet.options.rarity,
+    }
+  },
+
+  fauxFolder: {
+    toggle: true,
+    folderProperty: 'Type',
+    parameters: charadex.sheet.options.badgeTypes,
+  },
+
+  search: {
+    toggle: true,
+    filterToggle: true,
+    parameters: ['All', 'Item']
   },
 
   prevNext: {
