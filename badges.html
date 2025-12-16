@@ -12,7 +12,7 @@
   <!-- ----------------------------------------------------------------- -->
   <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
   <title>Badges</title>
-  <meta name="title" content="badges" />
+  <meta name="title" content="Badges" />
   <meta name="type" content="website" />
   <meta name="url" content="https://www.charadex.com/" />
   <meta name="image" content="assets/meta.png" />
@@ -73,7 +73,7 @@
 
         <!-- Title
         <!-- --------------------------------------------------------------- -->
-        <h3 class="mb-0"><a href="badges.html">Badge Catalogue</a></h3>
+        <h3 class="mb-0"><a href="items.html">Item Catalogue</a></h3>
 
         <!-- Faux Folders
         <!-- --------------------------------------------------------------- -->
@@ -91,11 +91,17 @@
         <!-- Filters
         <!-- --------------------------------------------------------------- -->
         <div style="display:none;" id="charadex-filter-container">
+          <hr>
+          <div class="row no-gutters m-n1" id="charadex-filters"></div>
           <!-- Filters -->
           <div style="display: none;">
+            <div class="col-md-4 col-12 p-1" id="charadex-filter">
+              <label class="px-2"></label>
+              <select class="form-control" multiple></select>
+            </div>
           </div>
         </div>
-        
+
         <!-- Search
         <!-- --------------------------------------------------------------- -->
         <div style="display:none;" id="charadex-search-container">
@@ -175,7 +181,6 @@
     <div class="col-md-6 p-2" id="charadex-gallery-item">
       <div class="card h-100">
 
-        
         <!-- Header -->
         <div class="card-header p-4">
           <div class="row no-gutters align-items-end m-n1">
@@ -184,7 +189,6 @@
           </div>
         </div>
         
-
         <!-- Body -->
         <div class="card-body p-md-4 p-3 d-flex flex-fill align-items-center">
           <div class="row no-gutters m-n2">
@@ -195,10 +199,8 @@
           </div>
         </div>
 
-
       </div>
     </div>
-    <!-- End of Gellery Items -->
 
 
     <!-- Gallery Profile
@@ -214,7 +216,6 @@
           </div>
         </div>
 
-
         <!-- Main Info
         <!-- ----------------------------------------------------------- -->
         <div class="p-md-5 p-4">
@@ -226,17 +227,30 @@
             </div>
 
             <div class="col-md-8 p-2">
-              <div class="card bg-faded p-4 h-100">  
+              <div class="card bg-faded p-4 h-100">
+
                 <!-- Item -->
                 <div class="d-flex no-gutters mb-2">
-                  <b class="text-muted col-md-5 col-6">Badge</b>
+                  <b class="text-muted col-md-5 col-6">Item</b>
                   <span class="badge"></span>
                 </div>
-
+  
                 <!-- Item -->
                 <div class="d-flex no-gutters mb-2">
                   <b class="text-muted col-md-5 col-6">Type</b>
                   <span class="type"></span>
+                </div>
+  
+                <!-- Item -->
+                <div class="d-flex no-gutters mb-2">
+                  <b class="text-muted col-md-5 col-6">Rarity</b>
+                  <span class="rarity"></span>
+                </div>
+  
+                <!-- Item -->
+                <div class="d-flex no-gutters">
+                  <b class="text-muted col-md-5 col-6">Price</b>
+                  <span>$<span class="price"></span></span>
                 </div>
 
                 <hr>
@@ -246,23 +260,15 @@
                   <b class="text-muted">Description</b>
                   <div class="px-4 cd-text-pre description"></div>
                 </div>
-                <hr>
 
               </div>
-              <br>
-              <div class="d-flex no-gutters mb-2 justify-content-center">
-                  <span class="hue"></span>
-                </div>
             </div>
 
           </div>
 
         </div>
-
-
       </div>
     </div>
-    <!-- End of Gellery Profile -->
 
 
   </div>
