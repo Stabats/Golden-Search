@@ -1,1 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <!-- ----------------------------------------------------------------- -->
+  <!-- About Your Site                                                   -->
+  <!-- ----------------------------------------------------------------- -->
+  <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+  <title>World</title>
+  <meta name="title" content="magic" />
+  <meta name="type" content="website" />
+  <meta name="url" content="https://stabats.github.io/Golden-Search/" />
+  <meta name="image" content="assets/meta.png" />
+  <meta name="description" content="An ARPG about (maybe) saving the world.">
+
+  <!-- No AI scraping directives -->
+  <meta name="robots" content="noai">
+  <meta name="robots" content="noimageai">
+
+
+  <!-- ----------------------------------------------------------------- -->
+  <!-- Styles                                                            -->
+  <!-- ----------------------------------------------------------------- -->
+
+  <!-- Bootstrap CSS -->
+  <!-- Using Bootstrap 4.5 because its closest to Toyhou.se's current version -->
+  <!-- https://getbootstrap.com/docs/4.5/getting-started/introduction/ -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+
+  <!-- ----------------------------------------------------------------- -->
+  <!-- Optional Styles                                                   -->
+  <!-- ----------------------------------------------------------------- -->
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" type="text/css" href="styles/css/charadex.css">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400|Comfortaa:500" rel="stylesheet">
+
+
+</head>
+
+<body id="charadex-body">
+
+
+  <!-- --------------------------------------------------------------------
+  <-- Header
+  <-------------------------------------------------------------------- -->
+  <div class="load-html" id="header" data-source="includes/header.html"></div>
+
+
+  <!-- --------------------------------------------------------------------
+  <-- Main List
+  <-------------------------------------------------------------------- -->
+  <div class="container" id="main-container">
+    <div class="card" style="padding:10px;background:#D4A0A7;"><div class="card mb-3" style="background:#C0D6DF;color:#0A044E;border:none;">
+  <div class="row g-0" style="background:transparent;">
+    <div class="col-md-4" style="background:transparent;">
+      <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/16421697_tOFtJr8SCUY4JlF.png" class="img-fluid rounded-start">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body" style="padding:10px;">
+        <h5 class="card-title text-center">Building Your Home</h5>
+        <p class="card-text">Players start off with their own plot of land which they can use to build their own home on. These homes can be customized and upgraded through land, buildings, furniture, and decorations. Players have full freedom over the design of their house inside and out, they simply need to purchase the materials to do so.</p>
+        <h5 class="card-title text-center">Landowner's Deed</h5>
+        <p class="card-text">A <i>landowner's deed</i> is an item that states a piece of land belongs to a character. A player obtain this item in order to own and purchase land. In order to gain this item, the player will need to complete the following quests:<br>
+         ⇢ "Welcome to the Land"<br>
+         ⇢ "Property Rights"<br>
+         Once these quests have been completed, the player will recieve the item and once it's confirmed in the inventory, the player can start building and upgrading their land.</p>
+      </div>
+    </div>
+  </div></div>
+      <div class="card mb-3 text-center" style="background:#C0D6DF;color:#0A044E;border:none;padding:10px;">
+  <div class="row g-0" style="background:transparent;">
+    <div class="col-md-4" style="background:transparent;">
+      <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/38091712_gWEtcK5Ug4fazJZ.png?1627967737" class="img-fluid rounded-start">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body" style="padding:10px;">
+        <h5 class="card-title text-center">Plots</h5>
+        <p class="card-text">There are a large variety of plots avaiable for purchase that players may use to their heart's content. However, you can only own one size plot in town at a time. Therefore, when you purchase a new plot, you are basically upgrading their current plot size. Each plot is a square where the smallest is 5 feet by 5 feet (1.5 meters by 1.5 meters) and the largest is a 100 feet by 100 feet (3,048 meters by 3,048 meters). The type of ground the plot is up to the player e.g. grassy, dirt, stone, mixture, etc. Different size plots are required as certain requirements.</p></div></div></div>
+        <table id="plots" style="border:none;"><tr><td><h5 class="card-title">25 ft²</h5>
+        <p class="card-text"><i>A perfect start.</i><br><br><b>Price:</b> FREE!</p></td><td><h5 class="card-title">100 ft²</h5>
+        <p class="card-text"><i>Just need a little extra.</i><br><br><b>Price:</b> 100 coins</p></td><td><h5 class="card-title">225 ft²</h5>
+        <p class="card-text"><i>Rounds out real nice.</i><br><br><b>Price:</b> 150 coins</p></td><td><h5 class="card-title">400 ft²</h5>
+        <p class="card-text"><i>"...".</i><br><br><b>Price:</b> 200 coins</p></td><td><h5 class="card-title">625 ft²</h5>
+        <p class="card-text"><i>"...".</i><br><br><b>Price:</b> 250 coins</p></td><td><h5 class="card-title">900 ft²</h5>
+        <p class="card-text"><i>"...".</i><br><br><b>Price:</b> 300 coins</p></td><td><h5 class="card-title">1,225 ft²</h5>
+        <p class="card-text"><i>"...".</i><br><br><b>Price:</b> 350 coins</p></td><td><h5 class="card-title">1,600 ft²</h5>
+        <p class="card-text"><i>"...".</i><br><br><b>Price:</b> 400 coins</p></td><td><h5 class="card-title">2,025 ft²</h5>
+        <p class="card-text"><i>"...".</i><br><br><b>Price:</b> 450 coins</p></td><td><h5 class="card-title">2,500 ft²</h5>
+        <p class="card-text"><i>"...".</i><br><br><b>Price:</b> 500 coins</p></td></tr><tr><td><h5 class="card-title">3,025 ft²</h5>
+        <p class="card-text"><i>"...".</i><br><br><b>Price:</b> 550 coins</p></td><td><h5 class="card-title">3,600 ft²</h5>
+        <p class="card-text"><i>"...".</i><br><br><b>Price:</b> 600 coins</p></td><td><h5 class="card-title">4,225 ft²</h5>
+        <p class="card-text"><i>"...".</i><br><br><b>Price:</b> 650 coins</p></td><td><h5 class="card-title">4,900 ft²</h5>
+        <p class="card-text"><i>"...".</i><br><br><b>Price:</b> 700 coins</p></td><td><h5 class="card-title">5,625 ft²</h5>
+        <p class="card-text"><i>"...".</i><br><br><b>Price:</b> 750 coins</p></td><td><h5 class="card-title">6,400 ft²</h5>
+        <p class="card-text"><i>Yeesh, do you really need it all?.</i><br><br><b>Price:</b> 800 coins</p></td><td><h5 class="card-title">7,225 ft²</h5>
+        <p class="card-text"><i>Yeesh, do you really need it all?.</i><br><br><b>Price:</b> 850 coins</p></td><td><h5 class="card-title">8,100 ft²</h5>
+        <p class="card-text"><i>Yeesh, do you really need it all?.</i><br><br><b>Price:</b> 900 coins</p></td><td><h5 class="card-title">9,025 ft²</h5>
+        <p class="card-text"><i>Yeesh, do you really need it all?.</i><br><br><b>Price:</b> 950 coins</p></td><td><h5 class="card-title">10,000 ft²</h5>
+        <p class="card-text"><i>Yeesh, do you really need it all?.</i><br><br><b>Price:</b> 1000 coins</p></td></tr></table>
+    </div>
+
+    <div class="card" style="background:#C0D6DF;color:#0A044E;border:none;padding:10px;">
+      <div class="card-body">
+        <h5 class="card-title text-center">Houses</h5>
+        <p class="card-text">There are 6 different types of housing the player can choose from to build on their plot of land. In order to build a house on a plot of land, the player needs to have the required land area and building materials.</div><br>
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <div class="card text-center" style="border:none;background:transparent;">
+      <img src="https://f2.toyhou.se/file/f2-toyhou-se/thumbnails/16421697_tOF.png" class="card-img-top">
+      <div class="card-body" style="padding-top:10px;">
+        <h5 class="card-title">Shack (9 ft²)</h5>
+        <p class="card-text"><i>Living under the staircase in fashion.</i><br>
+<b>Requires:</b> 5x5 foot plot, 10ft of wood<br>
+<b>Rooms:</b> None</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card text-center" style="border:none;background:transparent;">
+      <img src="https://f2.toyhou.se/file/f2-toyhou-se/thumbnails/16421697_tOF.png" class="card-img-top">
+      <div class="card-body" style="padding-top:10px;">
+        <h5 class="card-title">Cabin (100 ft²)</h5>
+        <p class="card-text"><i>A snug little home.<br>
+</i><b>Requires:</b>&nbsp;400 ft² plot, 105ft of wood<br>
+<b>Rooms:</b>&nbsp;1</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card text-center" style="border:none;background:transparent;">
+      <img src="https://f2.toyhou.se/file/f2-toyhou-se/thumbnails/16421697_tOF.png" class="card-img-top">
+      <div class="card-body" style="padding-top:10px;">
+        <h5 class="card-title">Small House (225 ft²)</h5>
+        <p class="card-text"><i>Nice condo!</i><br><b>Requires:</b>&nbsp;900 ft² plot, 230ft of wood<br>
+<b>Rooms:</b>&nbsp;2</p>
+      </div>
+    </div>
+  </div>
+    <div class="col">
+    <div class="card text-center" style="border:none;background:transparent;">
+      <img src="https://f2.toyhou.se/file/f2-toyhou-se/thumbnails/16421697_tOF.png" class="card-img-top">
+      <div class="card-body" style="padding-top:10px;">
+        <h5 class="card-title">Medium House (400 ft²)</h5>
+        <p class="card-text"><i>Ah, the suburbs.</i><br>
+<b>Requires:</b>&nbsp;1,225 ft² plot, 410ft of wood<br>
+<b>Rooms:</b>&nbsp;4</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card text-center" style="border:none;background:transparent;">
+      <img src="https://f2.toyhou.se/file/f2-toyhou-se/thumbnails/16421697_tOF.png" class="card-img-top">
+      <div class="card-body" style="padding-top:10px;">
+        <h5 class="card-title">Large House (900 ft²)</h5>
+        <p class="card-text"><i>That's a big family you've got there! Or are you just rich?</i><br>
+<b>Requires:</b>&nbsp;2,025 ft² plot, 915ft of wood<br>
+<b>Rooms:</b>&nbsp;6</p>
+      </div>
+    </div>
+  </div>
+    <div class="col">
+    <div class="card text-center" style="border:none;background:transparent;">
+      <img src="https://f2.toyhou.se/file/f2-toyhou-se/thumbnails/16421697_tOF.png" class="card-img-top">
+      <div class="card-body" style="padding:10px;">
+        <h5 class="card-title">Mansion (1600 ft²)</h5>
+        <p class="card-text"><i>The penicular of luxury.</i><br><b>Requires:</b> 3,025 ft² plot, 1,620ft of wood<br><b>Rooms:</b> 10</p>
+      </div>
+    </div>
+  </div>
+    </div>
+</div>
+<br>
+<div class="card" style="background:#C0D6DF;color:#0A044E;border:none;padding:10px;"><h5 class="card-title text-center">Furniture and Decoration</h5><p class="card-text">text....</p><br><div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <div class="card" style="border:none;background:transparent;">
+      <img src="https://f2.toyhou.se/file/f2-toyhou-se/thumbnails/16421697_tOF.png" class="card-img-top">
+      <div class="card-body" style="padding-top:5px;">
+        <h5 class="card-title">Bathroom Bundle</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card" style="border:none;background:transparent;">
+      <img src="https://f2.toyhou.se/file/f2-toyhou-se/thumbnails/16421697_tOF.png" class="card-img-top">
+      <div class="card-body" style="padding-top:5px;">
+        <h5 class="card-title">Kitchen Bundle</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card" style="border:none;background:transparent;">
+      <img src="https://f2.toyhou.se/file/f2-toyhou-se/thumbnails/16421697_tOF.png" class="card-img-top">
+      <div class="card-body" style="padding-top:5px;">
+        <h5 class="card-title">Living Room Bundle</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card" style="border:none;background:transparent;">
+      <img src="https://f2.toyhou.se/file/f2-toyhou-se/thumbnails/16421697_tOF.png" class="card-img-top">
+      <div class="card-body" style="padding-top:5px;">
+        <h5 class="card-title">Dining Room Bundle</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+    <div class="col">
+    <div class="card" style="border:none;background:transparent;">
+      <img src="https://f2.toyhou.se/file/f2-toyhou-se/thumbnails/16421697_tOF.png" class="card-img-top">
+      <div class="card-body" style="padding-top:5px;">
+        <h5 class="card-title">Bedroom Bundle</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+    <div class="col">
+    <div class="card" style="border:none;background:transparent;">
+      <img src="https://f2.toyhou.se/file/f2-toyhou-se/thumbnails/16421697_tOF.png" class="card-img-top">
+      <div class="card-body" style="padding-top:5px;">
+        <h5 class="card-title">Indoor Decoration Bundle</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+    <div class="col">
+    <div class="card" style="border:none;background:transparent;">
+      <img src="https://f2.toyhou.se/file/f2-toyhou-se/thumbnails/16421697_tOF.png" class="card-img-top">
+      <div class="card-body" style="padding-top:5px;">
+        <h5 class="card-title">Outdoor Decoration Bundle</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div></div>
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+    <div class="card" style="border:none;background:transparent;">
+      <img src="https://f2.toyhou.se/file/f2-toyhou-se/thumbnails/16421697_tOF.png" class="card-img-top">
+      <div class="card-body" style="padding-top:5px;">
+        <h5 class="card-title">Children's Room Bundle</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card" style="border:none;background:transparent;">
+      <img src="https://f2.toyhou.se/file/f2-toyhou-se/thumbnails/16421697_tOF.png" class="card-img-top">
+      <div class="card-body" style="padding-top:5px;">
+        <h5 class="card-title">Office Room Bundle</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card" style="border:none;background:transparent;">
+      <img src="https://f2.toyhou.se/file/f2-toyhou-se/thumbnails/16421697_tOF.png" class="card-img-top">
+      <div class="card-body" style="padding-top:5px;">
+        <h5 class="card-title">Attic Bundle</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card" style="border:none;background:transparent;">
+      <img src="https://f2.toyhou.se/file/f2-toyhou-se/thumbnails/16421697_tOF.png" class="card-img-top">
+      <div class="card-body" style="padding-top:5px;">
+        <h5 class="card-title">Basement Bundle</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card" style="border:none;background:transparent;">
+      <img src="https://f2.toyhou.se/file/f2-toyhou-se/thumbnails/16421697_tOF.png" class="card-img-top">
+      <div class="card-body" style="padding-top:5px;">
+        <h5 class="card-title">Porch Bundle</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card" style="border:none;background:transparent;">
+      <img src="https://f2.toyhou.se/file/f2-toyhou-se/thumbnails/16421697_tOF.png" class="card-img-top">
+      <div class="card-body" style="padding-top:5px;">
+        <h5 class="card-title">Balcony Bundle</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card" style="border:none;background:transparent;">
+      <img src="https://f2.toyhou.se/file/f2-toyhou-se/thumbnails/16421697_tOF.png" class="card-img-top">
+      <div class="card-body" style="padding-top:5px;">
+        <h5 class="card-title">Miscellaneous Bundle</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+            </div>
+    </div>
+  </div>
+
+  <!-- --------------------------------------------------------------------
+  <-- Footer
+  <-------------------------------------------------------------------- -->
+  <div class="load-html" id="footer" data-source="includes/footer.html"></div>
+
+  <!-- ----------------------------------------------------------------- -->
+  <!-- JS                                                                -->
+  <!-- ----------------------------------------------------------------- -->
+
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+  <!-- Charadex Script -->
+  <script src="styles/js/pages/base.js" type="module"></script>
+
+
+</body>
+
+</html>
+</div><div>
