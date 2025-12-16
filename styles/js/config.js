@@ -136,7 +136,6 @@ charadex.page.badges = {
   filters: {
     toggle: true,
     parameters: {
-      'Type': charadex.sheet.options.badgeTypes,
     }
   },
 
@@ -149,7 +148,7 @@ charadex.page.badges = {
   search: {
     toggle: true,
     filterToggle: true,
-    parameters: ['All', 'Badge']
+    parameters: ['All', 'Type']
   },
 
   prevNext: {
@@ -157,7 +156,6 @@ charadex.page.badges = {
   },
 
 };
-
 
 /* powers
 /* --------------------------------------------------------------- */
