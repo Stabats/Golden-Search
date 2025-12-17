@@ -111,7 +111,7 @@ charadex.page.items = {
 
 };
 
-/* Item Catalogue
+/* Badge Catalogue
 /* --------------------------------------------------------------- */
 charadex.page.badges = {
 
@@ -150,7 +150,7 @@ charadex.page.badges = {
   search: {
     toggle: true,
     filterToggle: true,
-    parameters: ['All', 'Item']
+    parameters: ['All', 'Badge']
   },
 
   prevNext: {
