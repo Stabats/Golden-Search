@@ -54,13 +54,24 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   /* Designs
   ===================================================================== */
-  let designs = await charadex.initialize.page(null, charadex.page.index.designs, (arr) => {
-    
-    // Splice the silly little array
-    let sliceAmount = charadex.page.index.designs.amount || 6;
-    arr.splice(sliceAmount, arr.length);
+  let badges = await charadex.initialize.page(null, charadex.page.index.badges, (arr) => {
 
-  });
+      // Splice the silly little array
+      let sliceAmount = charadex.page.index.badges.amount || 4;
+      arr.splice(sliceAmount, arr.length);
+
+    }, (data) => {
+
+      // Add the silly little prompt stuff here too
+      $('.cd-prompt-background').each(function(i) {
+        const element = $(this);
+        const image = data.array[i]?.image;
+        element.attr('style', `background-image: url(${image})`);
+      });
+      
+    }
+    
+  );
 
 
   /* Load Page
