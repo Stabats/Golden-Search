@@ -617,6 +617,12 @@ charadex.page.index = {
     ... charadex.page.masterlist,
     dexSelector: 'design',
     amount: 4,
+  },
+
+  badges: {
+    ... charadex.page.badges,
+      dexSelector: 'badge',
+      amount: 6,
   }
 
 };
