@@ -30,12 +30,12 @@ document.addEventListener("DOMContentLoaded", async () => {
     
   );
 
-  /* badges
+  /* Designs
   ===================================================================== */
-  let badges = await charadex.initialize.page(null, charadex.page.index.badges, (arr) => {
+  let badges = await charadex.initialize.page(null, charadex.page.index.design, (arr) => {
     
     // Splice the silly little array
-    let sliceAmount = charadex.page.index.badges.amount || 6;
+    let sliceAmount = charadex.page.index.design.amount || 6;
     arr.splice(sliceAmount, arr.length);
 
   });
