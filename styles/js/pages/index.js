@@ -41,16 +41,6 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   });
 
-  /* Seekers
-  ===================================================================== */
-  let staff = await charadex.initialize.page(null, charadex.page.index.seekers, (arr) => {
-    
-    // Splice the silly little array
-    let sliceAmount = charadex.page.index.seekers.amount || 6;
-    arr.splice(sliceAmount, arr.length);
-
-  });
-
 
   /* Designs
   ===================================================================== */
