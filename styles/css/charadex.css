@@ -33,6 +33,9 @@ body {
 
   /* Background Extras */
   --cd-body-background-image: url('https://f2.toyhou.se/file/f2-toyhou-se/images/89241551_kiBDUo8171m5viA.png');
+  --cd-body-background-attachment: fixed;
+  --cd-body-background-position: top;
+  --cd-body-background-size: cover;
 
   /* ============================================================= */
   /* Text
