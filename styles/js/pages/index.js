@@ -54,10 +54,10 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   /* Designs
   ===================================================================== */
-  let designs = await charadex.initialize.page(null, charadex.page.index.badges, (arr) => {
+  let designs = await charadex.initialize.page(null, charadex.page.index.badge, (arr) => {
     
     // Splice the silly little array
-    let sliceAmount = charadex.page.index.badges.amount || 6;
+    let sliceAmount = charadex.page.index.badge.amount || 6;
     arr.splice(sliceAmount, arr.length);
 
   });
