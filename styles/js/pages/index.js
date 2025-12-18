@@ -52,6 +52,16 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   });
 
+  /* Designs
+  ===================================================================== */
+  let designs = await charadex.initialize.page(null, charadex.page.index.badges, (arr) => {
+    
+    // Splice the silly little array
+    let sliceAmount = charadex.page.index.badges.amount || 6;
+    arr.splice(sliceAmount, arr.length);
+
+  });
+
 
   /* Load Page
   ===================================================================== */
