@@ -30,16 +30,6 @@ document.addEventListener("DOMContentLoaded", async () => {
     
   );
 
-  /* Designs
-  ===================================================================== */
-  let badges = await charadex.initialize.page(null, charadex.page.index.design, (arr) => {
-    
-    // Splice the silly little array
-    let sliceAmount = charadex.page.index.design.amount || 6;
-    arr.splice(sliceAmount, arr.length);
-
-  });
-
 
   /* Staff
   ===================================================================== */
@@ -54,22 +44,11 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   /* Designs
   ===================================================================== */
-  let badges = await charadex.initialize.page(null, charadex.page.index.badges, (arr) => {
+  let designs = await charadex.initialize.page(null, charadex.page.index.designs, (arr) => {
 
-      // Splice the silly little array
-      let sliceAmount = charadex.page.index.badges.amount || 4;
-      arr.splice(sliceAmount, arr.length);
-
-    }, (data) => {
-
-      // Add the silly little prompt stuff here too
-      $('.cd-prompt-background').each(function(i) {
-        const element = $(this);
-        const image = data.array[i]?.image;
-        element.attr('style', `background-image: url(${image})`);
-      });
-      
-    }
+    // Splice the silly little array
+    let sliceAmount = charadex.page.index.designs.amount || 6;
+    arr.splice(sliceAmount, arr.length);
     
   );
 
