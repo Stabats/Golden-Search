@@ -622,7 +622,7 @@ charadex.page.index = {
   badges: {
     ... charadex.page.badges,
       dexSelector: 'badge',
-      amount: 4,
+      amount: 6,
   },
 
   seekers: {
