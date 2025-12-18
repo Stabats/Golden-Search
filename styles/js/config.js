@@ -623,6 +623,12 @@ charadex.page.index = {
     ... charadex.page.badges,
       dexSelector: 'badge',
       amount: 6,
+  },
+
+  seekers: {
+    ... charadex.page.seekers,
+      dexSelector: 'seeker',
+      amount: 6,
   }
 
 };
