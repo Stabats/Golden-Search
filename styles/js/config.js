@@ -592,6 +592,33 @@ charadex.page.inventory = {
       }
     },
 
+    sheetPage: charadex.sheet.pages.badges,
+    sitePage: 'badges',
+    dexSelector: 'inventory',
+    profileProperty: 'badge',
+    profileToggle: false,
+
+    sort: {
+      toggle: true,
+      sortProperty: "badge",
+      order: "asc",
+      parametersKey: 'type', 
+      parameters: charadex.sheet.options.badgeTypes
+    },
+
+    search: {
+      toggle: true,
+      filterToggle: false,
+      parameters: ['Badge']
+    },
+
+    filters: {
+      toggle: true,
+      parameters: {
+        'Type': charadex.sheet.options.badgeTypes,
+      }
+    },
+
   }
 
 };
