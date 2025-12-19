@@ -178,12 +178,6 @@
             </a>
           </li>
           <li class="col p-1 nav-item" role="presentation">
-            <a class="nav-link w-100 btn btn-primary active" id="inventory-tab" data-toggle="tab" href="#achieve" 
-            aria-controls="achieve" aria-selected="true">
-              Badges
-            </a>
-          </li>
-          <li class="col p-1 nav-item" role="presentation">
             <a class="nav-link w-100 btn btn-primary" id="designs-tab" data-toggle="tab" href="#designs" 
             aria-controls="designs" aria-selected="false">
               Designs
@@ -285,57 +279,7 @@
 
           </div>
 
-          <!-- Badges -->
-          <div class="tab-pane fade active show" id="achieve" role="tabpanel" aria-labelledby="achieve-tab">
-            <div id="inventory-gallery">
-              <div class="card bg-faded p-4 mb-4">
-
-                <!-- Title -->
-                <h4 class="text-primary d-flex justify-content-between align-items-center mb-0">
-                  Inventory
-                  <a href="#inventory-filter-toggle" data-toggle="collapse"><i class="fas fa-filter fa-fw"></i></a>
-                </h4>
-
-                <div class="collapse" id="inventory-filter-toggle">
-
-                  <!-- Filters -->
-                  <div style="display:none;" id="inventory-filter-container">
-                    <hr>
-                    <div class="row no-gutters m-n1" id="inventory-filters"></div>
-                    <!-- Filters -->
-                    <div style="display: none;">
-                      <div class="col-md-4 col-12 p-1" id="inventory-filter">
-                        <label class="px-2"></label>
-                        <select class="form-control" multiple></select>
-                      </div>
-                    </div>
-                  </div>
-
-                </div> 
-
-                <!-- Search -->
-                <div style="display:none;" id="inventory-search-container">
-                  <hr>
-                  <div class="row no-gutters m-n1">
-                    <!-- Search Filter -->
-                    <div class="col-md-4 col-6 p-1" style="display: none;">
-                      <select class="form-control bg-reset" id="inventory-search-filter"></select>
-                    </div>
-                    <!-- Search Bar -->
-                    <div class="col d-flex p-1">
-                      <input class="form-control bg-reset search" type="search" placeholder="Search" id="inventory-search">
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-
-              <div id="inventory-group"></div>
-
-            </div>
-            <div style="display:none;">
-
-              <!-- Gallery List -->
+          <!-- Gallery List -->
               <div class="mt-5 inventory-list-container" id="inventory-group-list">
                 <h4 class="inventory-group-title"></h4>
                 <div class="row no-gutters m-n2 inventory-list charadex-gallery-row"></div>
