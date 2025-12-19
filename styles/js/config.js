@@ -40,6 +40,7 @@ charadex.sheet = {
     staff:         "mods",
     seekers:       "seekers",
     badges:        "badges",
+    achievements:  "achievements",
   },
 
   options: {
@@ -558,6 +559,21 @@ charadex.page.inventory = {
 
     }
 
+    [charadex.sheet.pages.badges]: {
+
+      // This imports the config from the masterlist
+      // So you dont have to repeat yourself
+      ...charadex.page.badges, 
+
+      sheetPage: charadex.sheet.pages.badges,
+      sitePage: 'badges',
+      primaryProperty: 'badge',
+      dexSelector: 'badge',
+      profileProperty: 'type',
+      profileToggle: false,
+
+    }
+
   },
 
   
@@ -589,33 +605,6 @@ charadex.page.inventory = {
       parameters: {
         'Type': charadex.sheet.options.itemTypes,
         'Rarity': charadex.sheet.options.rarity,
-      }
-    },
-
-    sheetPage: charadex.sheet.pages.badges,
-    sitePage: 'badges',
-    dexSelector: 'inventory',
-    profileProperty: 'badge',
-    profileToggle: false,
-
-    sort: {
-      toggle: true,
-      sortProperty: "badge",
-      order: "asc",
-      parametersKey: 'type', 
-      parameters: charadex.sheet.options.badgeTypes
-    },
-
-    search: {
-      toggle: true,
-      filterToggle: false,
-      parameters: ['Badge']
-    },
-
-    filters: {
-      toggle: true,
-      parameters: {
-        'Type': charadex.sheet.options.badgeTypes,
       }
     },
 
