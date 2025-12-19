@@ -40,7 +40,6 @@ charadex.sheet = {
     staff:         "mods",
     seekers:       "seekers",
     badges:        "badges",
-    achievements:  "achievements",
   },
 
   options: {
@@ -555,21 +554,6 @@ charadex.page.inventory = {
       relatedProperty: 'owner',
       dexSelector: 'designs',
       profileProperty: 'design',
-      profileToggle: false,
-
-    }
-
-    [charadex.sheet.pages.badges]: {
-
-      // This imports the config from the masterlist
-      // So you dont have to repeat yourself
-      ...charadex.page.badges, 
-
-      sheetPage: charadex.sheet.pages.badges,
-      sitePage: 'badges',
-      primaryProperty: 'badge',
-      dexSelector: 'badge',
-      profileProperty: 'type',
       profileToggle: false,
 
     }
