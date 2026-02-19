@@ -44,10 +44,10 @@ charadex.sheet = {
 
   options: {
 
-    designTypes: ['All', 'Official Design', 'Guest Design', 'MYO Slot', 'MYO Design'],
+    designTypes: [],
     statuses: ['All', 'Active', 'Haitus', 'Inactive'],
     rarity: ['All', 'Common', 'Uncommon', 'Rare', 'Very Rare', 'Legendary'],
-    species: ['All', 'PC', 'NPC'],
+    species: ['All', 'PC', 'NPC', 'BPNC'],
     itemTypes: ['All', 'Currency', 'Ingredents', 'Plots', 'Homes', 'Decor', 'Misc'],
     elementTypes: ['All', 'Aether', 'Air', 'Earth', 'Fire', 'Water'],
     level: ['All', '1', '2', '3', '4', '5', '6'],
@@ -422,7 +422,6 @@ charadex.page.masterlist = {
   filters: {
     toggle: true,
     parameters: {
-      'Design Type': charadex.sheet.options.designTypes,
       'Status': charadex.sheet.options.statuses,
       'Rarity': charadex.sheet.options.rarity,
     }
