@@ -40,6 +40,7 @@ charadex.sheet = {
     staff:         "mods",
     seekers:       "seekers",
     badges:        "badges",
+    craft:         "craft",
   },
 
   options: {
