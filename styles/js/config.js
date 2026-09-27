@@ -424,7 +424,7 @@ charadex.page.masterlist = {
     toggle: true,
     parameters: {
       'Status': charadex.sheet.options.statuses,
-      'Rarity': charadex.sheet.options.rarity,
+      'Magic': charadex.sheet.options.elementTypes,
     }
   },
 
@@ -437,7 +437,7 @@ charadex.page.masterlist = {
   search: {
     toggle: true,
     filterToggle: true,
-    parameters: ['All', 'ID', 'Design', 'Owner', 'Designer', 'Artist', 'Powers']
+    parameters: ['All', 'ID', 'Design', 'Owner', 'Designer', 'Artist']
   },
 
   prevNext: {
