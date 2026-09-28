@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<div>
+<head>
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
+
+  <!-- ----------------------------------------------------------------- -->
   <!-- About Your Site                                                   -->
+  <!-- ----------------------------------------------------------------- -->
   <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
   <title>Charadex Inventories</title>
   <meta name="title" content="Charadex Inventories" />
@@ -19,7 +22,10 @@
   <meta name="robots" content="noai">
   <meta name="robots" content="noimageai">
 
+
+  <!-- ----------------------------------------------------------------- -->
   <!-- Styles                                                            -->
+  <!-- ----------------------------------------------------------------- -->
 
   <!-- Bootstrap CSS -->
   <!-- Using Bootstrap 4.5 because its closest to Toyhou.se's current version -->
@@ -44,25 +50,34 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400|Comfortaa:500" rel="stylesheet">
 
 
-</div>
+</head>
 
 <body id="charadex-body">
 
-  <!-- Header -->
+  <!-- --------------------------------------------------------------------
+  <-- Header
+  <-------------------------------------------------------------------- -->
   <div class="load-html" data-source="includes/header.html"></div>
 
-  <!-- Main List -->
+  <!-- --------------------------------------------------------------------
+  <-- Main List
+  <-------------------------------------------------------------------- -->
   <div class="container" id="main-container">
 
-    <!-- Gallery Container -->
+
+    <!-- Gallery Container
+    <!-- -------------------------------------------------------------- -->
     <div id="charadex-gallery">
 
-      <!-- Filters -->
+
+      <!-- Filters
+      ----------------------------------------------------------------- -->
       <div class="card p-md-5 p-4 mb-4">
 
         <h3 class="mb-0"><a href="inventories.html">Player Inventories</a></h3>
 
-        <!-- Faux Folders -->
+        <!-- Faux Folders
+        --------------------------------------------------------------- -->
         <div style="display:none;" id="charadex-folder-container">
           <hr>
           <div class="row no-gutters m-n1" id="charadex-folders"></div>
@@ -74,7 +89,8 @@
           </div>
         </div>
 
-        <!-- Filters -->
+        <!-- Filters
+        <!-- --------------------------------------------------------------- -->
         <div style="display:none;" id="charadex-filter-container">
           <hr>
           <div class="row no-gutters m-n1" id="charadex-filters"></div>
@@ -87,7 +103,8 @@
           </div>
         </div>
 
-        <!-- Search -->
+        <!-- Search
+        <!-- --------------------------------------------------------------- -->
         <div style="display:none;" id="charadex-search-container">
           <hr>
           <div class="row no-gutters m-n1">
@@ -102,7 +119,8 @@
           </div>
         </div>
 
-        <!-- Pagination -->
+        <!-- Pagination
+        <!-- --------------------------------------------------------------- -->
         <div style="display: none;" class="charadex-pagination-container">
           <hr class="mb-4 mt-4">
           <div class="nav d-flex justify-content-center mb-n4">
@@ -112,7 +130,8 @@
           </div>
         </div>
 
-        <!-- Prev & Next Topbar -->
+        <!-- Prev & Next Topbar
+        <!-- --------------------------------------------------------------- -->
         <div style="display: none;" id="charadex-prevnext-container">
           <hr>
           <div class="row no-gutters px-2 text-uppercase">
@@ -128,10 +147,12 @@
       </div>
 
 
-      <!-- List Items Render Here -->
+      <!-- List Items Render Here
+      ----------------------------------------------------------------- -->
       <div class="row no-gutters charadex-list softload m-n1"></div>
 
-      <!-- Pagination -->
+      <!-- Pagination
+      <!-- --------------------------------------------------------------- -->
       <div style="display: none;" class="charadex-pagination-container">
         <div class="card px-3 py-1 mt-4">
           <div class="nav d-flex justify-content-center">
@@ -146,15 +167,25 @@
 
   </div>
 
-  <!-- Footer -->
+
+
+  <!-- --------------------------------------------------------------------
+    <-- Footer
+    <-------------------------------------------------------------------- -->
 
   <div class="load-html" data-source="includes/footer.html"></div>
 
-  <!-- Repeat Items
-  Do not remove 'display:none;' -->
+
+
+  <!-- --------------------------------------------------------------------
+  <-- Repeat Items
+  <-- Do not remove 'display:none;'
+  <-------------------------------------------------------------------- -->
   <div style="display:none;">
 
-    <!-- Gallery Items -->
+
+    <!-- Gallery Items
+    <!-- ------------------------------------------------------------------- -->
     <div class="col-md-4 col-sm-6 p-1" id="charadex-gallery-item">
       <a class="card px-4 py-3 profilelink text-truncate" href="">
         <h5 class="m-0"><span class="profileid"></span></h5>
@@ -163,6 +194,7 @@
 
 
     <!-- Gallery Profile -->
+    <!-- ------------------------------------------------------------------- -->
     <div class="col-12 p-2" id="charadex-profile">
       <div class="card">
 
@@ -170,6 +202,7 @@
         <h2 class="card-header text-center p-4"><span class="text-capitalize username"></span></h2>
 
         <!-- Nav Tabs -->
+        <!-- ----------------------------------------------------------- -->
         <ul class="nav row no-gutters m-n1 py-4 px-md-5 px-4" id="profile-tabs" role="tablist">
           <li class="col p-1 nav-item" role="presentation">
             <a class="nav-link w-100 btn btn-primary active" id="inventory-tab" data-toggle="tab" href="#inventory" 
@@ -192,15 +225,19 @@
         </ul>
         <hr class="my-0">
 
-        <!-- Main Body -->
+        <!-- Main Body
+        <!-- ----------------------------------------------------------- -->
         <div class="tab-content p-md-5 p-4">
 
-          <!-- Inventory -->
+
+          <!-- Inventory
+          <!-- ----------------------------------------------------------------- -->
           <div class="tab-pane fade active show" id="inventory" role="tabpanel" aria-labelledby="inventory-tab">
             <div id="inventory-gallery">
               <div class="card bg-faded p-4 mb-4">
 
-                <!-- Title -->
+                <!-- Title
+                <!-- --------------------------------------------------------------- -->
                 <h4 class="text-primary d-flex justify-content-between align-items-center mb-0">
                   Inventory
                   <a href="#inventory-filter-toggle" data-toggle="collapse"><i class="fas fa-filter fa-fw"></i></a>
@@ -208,7 +245,8 @@
 
                 <div class="collapse" id="inventory-filter-toggle">
 
-                  <!-- Filters -->
+                  <!-- Filters
+                  <!-- --------------------------------------------------------------- -->
                   <div style="display:none;" id="inventory-filter-container">
                     <hr>
                     <div class="row no-gutters m-n1" id="inventory-filters"></div>
@@ -223,7 +261,8 @@
 
                 </div> 
 
-                <!-- Search -->
+                <!-- Search
+                <!-- --------------------------------------------------------------- -->
                 <div style="display:none;" id="inventory-search-container">
                   <hr>
                   <div class="row no-gutters m-n1">
@@ -245,13 +284,15 @@
             </div>
             <div style="display:none;">
 
-              <!-- Gallery List -->
+              <!-- Gallery List
+              ------------------------------------------------------------------- -->
               <div class="mt-5 inventory-list-container" id="inventory-group-list">
                 <h4 class="inventory-group-title"></h4>
                 <div class="row no-gutters m-n2 inventory-list charadex-gallery-row"></div>
               </div>
 
-              <!-- Gallery Items -->
+              <!-- Gallery Items
+              ------------------------------------------------------------------- -->
               <div class="col-lg-3 col-sm-6 p-2" id="inventory-gallery-item">
                 <div class="card bg-faded h-100">
 
@@ -279,14 +320,18 @@
 
           </div>
 
-          <!-- Designs -->
+
+          <!-- Designs
+          <!-- ----------------------------------------------------------------- -->
           <div class="tab-pane fade" id="designs" role="tabpanel" aria-labelledby="designs-tab">
             <div id="designs-gallery">
 
-              <!-- Top Card Container -->
+              <!-- Top Card Container
+              <!-- ----------------------------------------------------------------- -->
               <div class="card bg-faded p-4 mb-4">
 
-                <!-- Title -->
+                <!-- Title
+                <!-- --------------------------------------------------------------- -->
                 <h4 class="text-primary d-flex justify-content-between align-items-center mb-0">
                   Owned Designs
                   <a href="#designs-filter-toggle" data-toggle="collapse"><i class="fas fa-filter fa-fw"></i></a>
@@ -294,7 +339,8 @@
 
                 <div class="collapse" id="designs-filter-toggle">
 
-                  <!-- Filters -->
+                  <!-- Filters
+                  <!-- --------------------------------------------------------------- -->
                   <div style="display:none;" id="designs-filter-container">
                     <hr>
                     <div class="row no-gutters m-n1" id="designs-filters"></div>
@@ -309,7 +355,8 @@
 
                 </div>
 
-                <!-- Search -->
+                <!-- Search
+                <!-- --------------------------------------------------------------- -->
                 <div style="display:none;" id="designs-search-container">
                   <hr>
                   <div class="row no-gutters m-n1">
@@ -324,7 +371,8 @@
                   </div>
                 </div>
 
-                <!-- Pagination -->
+                <!-- Pagination
+                <!-- --------------------------------------------------------------- -->
                 <div style="display: none;" class="designs-pagination-container">
                   <hr class="mb-4 mt-4">
                   <div class="nav d-flex justify-content-center mb-n2">
@@ -334,7 +382,8 @@
                   </div>
                 </div>
 
-                <!-- Prev & Next Topbar -->
+                <!-- Prev & Next Topbar
+                <!-- --------------------------------------------------------------- -->
                 <div style="display: none;" id="designs-prevnext-container">
                   <hr>
                   <div class="row no-gutters px-2 text-uppercase">
@@ -349,10 +398,12 @@
 
               </div>
 
-              <!-- List Items Render Here -->
+              <!-- List Items Render Here
+              <!-- --------------------------------------------------------------- -->
               <div class="row no-gutters designs-list m-n2"></div>
 
-              <!-- Pagination -->
+              <!-- Pagination
+              <!-- --------------------------------------------------------------- -->
               <div style="display: none;" class="designs-pagination-container">
                 <div class="card bg-faded px-3 py-1 mt-4">
                   <div class="nav d-flex justify-content-center">
@@ -365,7 +416,8 @@
 
             </div>
 
-            <!-- Gallery Items -->
+            <!-- Gallery Items
+            <!-- --------------------------------------------------------------- -->
             <div style="display:none;">
               <div class="col-lg-3 col-sm-6 p-2" id="designs-gallery-item">
                 <a class="card bg-faded h-100 profilelink" href="">
@@ -379,15 +431,18 @@
 
           </div>
 
-          <!-- Transactions -->
+          <!-- Transactions
+          <!-- ----------------------------------------------------------------- -->
           <div class="tab-pane fade" id="logs" role="tabpanel" aria-labelledby="logs-tab">
             <div class="card bg-faded p-4" id="log-gallery">
               
               <!-- Title -->
+              <!-- --------------------------------------------------------------- -->
               <h4 class="text-primary mb-0">Transaction Log</h4>
               <hr>
 
               <!-- List -->
+              <!-- --------------------------------------------------------------- -->
               <div class="p-3">
                 <div class="row no-gutters">
                   <div class="col-md-3"><b>Timestamp</b></div>
@@ -398,6 +453,7 @@
               </div>
 
               <!-- List Item -->
+              <!-- --------------------------------------------------------------- -->
               <div style="display: none;">
                 <div  id="log-gallery-item">
                   <div class="row no-gutters">
@@ -408,7 +464,8 @@
                 </div>
               </div>
 
-              <!-- Pagination -->
+              <!-- Pagination
+              <!-- --------------------------------------------------------------- -->
               <div style="display: none;" class="log-pagination-container">
                 <div class="nav d-flex justify-content-center mb-n2">
                   <div class="btn-prev page-item"><a class="page-link"><i class="fa fa-chevron-left"></i></a></div>
@@ -426,20 +483,22 @@
     </div>
   </div>
 
+  <!-- ----------------------------------------------------------------- -->
   <!-- JS                                                                -->
+  <!-- ----------------------------------------------------------------- -->
 
   <!-- JQuery -->
-  <div src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 
   <!-- Bootstrap -->
-  <div src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
   
   <!-- Bootstrap Multiselect -->
-  <div src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/bootstrap-select.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/bootstrap-select.min.js"></script>
 
   <!-- Charadex Script -->
-  <div src="styles/js/pages/base.js" type="module"></script>
-  <div src="styles/js/pages/inventory.js" type="module"></script>
+  <script src="styles/js/pages/base.js" type="module"></script>
+  <script src="styles/js/pages/inventory.js" type="module"></script>
 
 
 </body>
