@@ -48,7 +48,7 @@ charadex.sheet = {
     statuses: ['All', 'Active', 'Haitus', 'Inactive'],
     rarity: ['All', 'Common', 'Uncommon', 'Rare', 'Very Rare', 'Legendary'],
     species: ['All', 'PC', 'NPC', 'BPNC'],
-    itemTypes: ['All', 'Currency', 'Ingredents', 'Plots', 'Homes', 'Decor', 'Chapter', 'Misc'],
+    itemTypes: ['All', 'Currency', 'Ingredients', 'Plots', 'Homes', 'Decor', 'Chapter', 'Misc'],
     elementTypes: ['All', 'Aether', 'Air', 'Earth', 'Fire', 'Water'],
     level: ['All', '1', '2', '3', '4', '5', '6'],
     badgeTypes: ['All', 'Pinkies', 'Roleplay', 'Magic', 'Quests', 'Home'],
