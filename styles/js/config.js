@@ -44,7 +44,7 @@ charadex.sheet = {
 
   options: {
 
-    designTypes: ['All', 'Craftable', 'Prize'],
+    designTypes: ['All', 'Craftable', 'Prize', 'Discoverable'],
     statuses: ['All', 'Active', 'Haitus', 'Inactive'],
     rarity: ['All', 'Common', 'Uncommon', 'Rare', 'Very Rare', 'Legendary'],
     species: ['All', 'PC', 'NPC', 'BPNC'],
