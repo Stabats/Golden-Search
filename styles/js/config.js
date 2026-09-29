@@ -44,7 +44,7 @@ charadex.sheet = {
 
   options: {
 
-    designTypes: [],
+    designTypes: ['All', 'Craftable', 'Prize'],
     statuses: ['All', 'Active', 'Haitus', 'Inactive'],
     rarity: ['All', 'Common', 'Uncommon', 'Rare', 'Very Rare', 'Legendary'],
     species: ['All', 'PC', 'NPC', 'BPNC'],
@@ -90,6 +90,7 @@ charadex.page.items = {
     parameters: {
       'Type': charadex.sheet.options.itemTypes,
       'Rarity': charadex.sheet.options.rarity,
+      'Acquirability': charadex.sheet.options.designTypes,
     }
   },
 
